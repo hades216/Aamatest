@@ -39,8 +39,8 @@ export function FacultyPage() {
         <p className="text-xs uppercase font-bold tracking-[0.25em] text-[#E1A140] mb-3 font-mono">
           Academic Direction &amp; Master Faculty
         </p>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white uppercase font-editorial-heading mb-6">
-          Clinical Leadership &amp; <span className="text-[#E1A140] font-serif lowercase italic font-normal">mentorship</span>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white light:text-neutral-900 uppercase font-editorial-heading mb-6">
+          Clinical Leadership &amp; <span className="gradient-text-gold font-serif lowercase italic font-normal">mentorship</span>
         </h1>
         <p className="text-neutral-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto font-sans">
           Under the direct guidance of <strong>Dr. Shumaila Khan</strong>, IAAMA Academy delivers world-class, 1:1 live patient training designed to establish highest medical precision and safety in aesthetic practice.

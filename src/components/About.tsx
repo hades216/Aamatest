@@ -101,8 +101,8 @@ export function About() {
                 <span>CLINICAL ACADEMY DIRECTOR</span>
               </div>
 
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white uppercase font-editorial-heading leading-tight">
-                "We cultivate doctors who inject with <span className="text-[#E1A140] font-serif lowercase italic font-normal">anatomical certainty</span> and conservative elegance."
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white light:text-neutral-900 uppercase font-editorial-heading leading-tight">
+                "We cultivate doctors who inject with <span className="gradient-text-gold font-serif lowercase italic font-normal">anatomical certainty</span> and conservative elegance."
               </h2>
 
               <div className="space-y-4 text-sm sm:text-base text-neutral-300 font-sans leading-relaxed">
@@ -163,9 +163,9 @@ export function About() {
             <p className="text-xs uppercase font-bold tracking-[0.2em] text-[#E1A140] font-mono m-0">
               Elite Academic Standards
             </p>
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white uppercase font-editorial-heading m-0 leading-tight">
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white light:text-neutral-900 uppercase font-editorial-heading m-0 leading-tight">
               Pioneering Aesthetic <br />
-              <span className="text-[#E1A140] font-serif lowercase italic font-normal">medicine training</span> in Pakistan
+              <span className="gradient-text-rose font-serif lowercase italic font-normal">medicine training</span> in Pakistan
             </h2>
             <div className="w-16 h-[2px] bg-[#E1A140] my-4"></div>
 

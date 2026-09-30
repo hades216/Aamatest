@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { motion } from "motion/react";
 import { Hero } from "../components/Hero";
 import { Highlights } from "../components/Highlights";
 import { About } from "../components/About";
@@ -61,13 +62,19 @@ export function HomePage() {
       {/* 3. FEATURED MASTERCLASSES & FELLOWSHIPS */}
       <section className="py-20 px-4 md:px-8 border-b border-white/10 bg-transparent" id="featured-courses">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+          <motion.div 
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6"
+          >
             <div>
               <p className="text-xs uppercase font-bold tracking-[0.2em] text-[#E1A140] mb-2 font-mono">
                 Flagship Clinical Curriculums
               </p>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white uppercase font-editorial-heading">
-                Accredited Medical <span className="text-[#E1A140] font-serif lowercase italic font-normal">masterclasses</span>
+                Accredited Medical <span className="gradient-text-gold font-serif lowercase italic font-normal">masterclasses</span>
               </h2>
             </div>
             <Link
@@ -77,13 +84,18 @@ export function HomePage() {
               <span>Explore All {COURSES_DATA.length} Fellowships &amp; Modules</span>
               <ArrowRight size={16} className="transform group-hover:translate-x-1 transition-transform" />
             </Link>
-          </div>
+          </motion.div>
 
           {/* Grid of Courses with Full Card Image Backgrounds */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {featuredCourses.map((course) => (
-              <div
+            {featuredCourses.map((course, index) => (
+              <motion.div
                 key={course.id}
+                initial={{ opacity: 0, y: 35 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.12 }}
+                whileHover={{ y: -6, transition: { duration: 0.3 } }}
                 className="relative overflow-hidden group border border-white/15 light:border-neutral-200 hover:border-[#E1A140]/80 transition-all duration-500 rounded-2xl flex flex-col justify-between min-h-[520px] bg-neutral-900/60 light:bg-white/90 backdrop-blur-md shadow-lg"
               >
                 {/* Full-Card Background Image without harsh gradient shadow boxes */}
@@ -170,7 +182,7 @@ export function HomePage() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -182,13 +194,19 @@ export function HomePage() {
       {/* 5. UPCOMING TRAINING BATCHES ACCELERATOR */}
       <section className="py-20 px-4 md:px-8 bg-neutral-900 border-b border-white/10" id="upcoming-batches">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+          <motion.div 
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6"
+          >
             <div>
               <p className="text-xs uppercase font-bold tracking-[0.2em] text-[#E1A140] mb-2 font-mono">
                 Training Calendar 2026
               </p>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white uppercase font-editorial-heading">
-                Upcoming Nationwide <span className="text-[#E1A140] font-serif lowercase italic font-normal">cohorts</span>
+                Upcoming Nationwide <span className="gradient-text-gold font-serif lowercase italic font-normal">cohorts</span>
               </h2>
             </div>
             <Link
@@ -198,18 +216,23 @@ export function HomePage() {
               <span>View Full Academic Schedule</span>
               <ArrowRight size={16} className="transform group-hover:translate-x-1 transition-transform" />
             </Link>
-          </div>
+          </motion.div>
 
           {/* Schedule Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {upcomingBatches.map((batch) => (
-              <div
+            {upcomingBatches.map((batch, idx) => (
+              <motion.div
                 key={batch.id}
-                className="bg-neutral-950 border border-white/10 p-6 flex flex-col justify-between hover:border-[#E1A140]/60 transition-all duration-300 group"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: idx * 0.1 }}
+                whileHover={{ y: -5, transition: { duration: 0.2 } }}
+                className="bg-neutral-950 border border-white/10 p-6 flex flex-col justify-between hover:border-[#E1A140]/60 transition-all duration-300 group rounded-xl shadow-md"
               >
                 <div>
                   <div className="flex justify-between items-center mb-4">
-                    <span className="bg-amber-500/15 border border-amber-500/30 text-[#E1A140] text-xs font-bold uppercase tracking-wider px-2.5 py-1 font-mono">
+                    <span className="bg-amber-500/15 border border-amber-500/30 text-[#E1A140] text-xs font-bold uppercase tracking-wider px-2.5 py-1 font-mono rounded-md">
                       {batch.city}
                     </span>
                     <span className="text-xs text-amber-400 font-mono font-bold flex items-center gap-1.5">
@@ -240,11 +263,11 @@ export function HomePage() {
 
                 <Link
                   to={`/register?course=${batch.courseId}&city=${batch.city}`}
-                  className="w-full text-center bg-white/5 border border-white/20 hover:bg-[#E1A140] hover:text-black hover:border-[#E1A140] text-white py-2.5 text-xs font-bold uppercase tracking-widest transition-all"
+                  className="w-full text-center bg-white/5 border border-white/20 hover:bg-[#E1A140] hover:text-black hover:border-[#E1A140] text-white py-2.5 text-xs font-bold uppercase tracking-widest transition-all rounded-lg"
                 >
                   Reserve Seat
                 </Link>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -253,13 +276,19 @@ export function HomePage() {
       {/* 6. CLINICAL GALLERY & WORKSHOP SHOWCASE */}
       <section className="py-20 px-4 md:px-8 bg-transparent border-b border-white/10" id="home-gallery-showcase">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+          <motion.div 
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6"
+          >
             <div>
               <p className="text-xs uppercase font-bold tracking-[0.2em] text-[#E1A140] mb-2 font-mono">
                 Authentic Training Archives
               </p>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white uppercase font-editorial-heading">
-                Clinical Gallery &amp; <span className="text-[#E1A140] font-serif lowercase italic font-normal">highlights</span>
+                Clinical Gallery &amp; <span className="gradient-text-rose font-serif lowercase italic font-normal">highlights</span>
               </h2>
             </div>
             <Link
@@ -269,7 +298,7 @@ export function HomePage() {
               <span>Explore Full Gallery &amp; Add Photos</span>
               <ArrowRight size={16} className="transform group-hover:translate-x-1 transition-transform" />
             </Link>
-          </div>
+          </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -340,9 +369,15 @@ export function HomePage() {
             <span>Admissions Open for 2026 Batches</span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white uppercase font-editorial-heading mb-6">
-            Advance Your Clinical Practice with <span className="text-[#E1A140] font-serif lowercase italic font-normal">IAAMA Academy</span>
-          </h2>
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white light:text-neutral-900 uppercase font-editorial-heading mb-6"
+          >
+            Advance Your Clinical Practice with <span className="gradient-text-gold font-serif lowercase italic font-normal">IAAMA Academy</span>
+          </motion.h2>
 
           <p className="text-neutral-300 text-base md:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
             Strictly limited to PM&amp;DC registered medical doctors and dentists. Step into our world-class surgical and aesthetic training suites with 1-on-1 live patient models.

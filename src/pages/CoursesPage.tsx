@@ -97,8 +97,8 @@ export function CoursesPage() {
           <ShieldCheck size={14} aria-hidden="true" />
           <span>100% Non-Surgical Medical Aesthetic Curriculums</span>
         </div>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white uppercase font-editorial-heading mb-6">
-          Masterclasses, <span className="text-[#E1A140] font-serif lowercase italic font-normal">fellowships</span> &amp; offerings
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white light:text-neutral-900 uppercase font-editorial-heading mb-6">
+          Masterclasses, <span className="gradient-text-gold font-serif lowercase italic font-normal">fellowships</span> &amp; offerings
         </h1>
         <p className="text-neutral-300 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto">
           UK CPD accredited training courses designed exclusively for PM&amp;DC registered doctors and dentists, featuring 1:1 hands-on injection on live patient models, bespoke mentorship, and international clinical tours.

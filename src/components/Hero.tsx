@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import { motion, useScroll, useTransform } from "motion/react";
 import { Sparkles, Calendar, ArrowRight, UserCheck, CheckCircle, HelpCircle } from "lucide-react";
 // @ts-ignore
 import heroAestheticImg from "../assets/images/bright_hero_model_1781221945218.jpg";
@@ -25,6 +26,16 @@ export function Hero({ onRegisterClick, onExploreCourses, onSelectCourseFilter }
   const [sliderPosition, setSliderPosition] = useState<number>(50);
   const [isDragging, setIsDragging] = useState<boolean>(false);
   const containerRef = React.useRef<HTMLDivElement>(null);
+
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"]
+  });
+
+  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "22%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
+  const badgeY = useTransform(scrollYProgress, [0, 1], ["0%", "-25%"]);
 
   const handlePointerMove = (clientX: number) => {
     if (!containerRef.current) return;
@@ -198,11 +209,14 @@ export function Hero({ onRegisterClick, onExploreCourses, onSelectCourseFilter }
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[68px] font-bold tracking-tight text-white light:text-neutral-900 font-editorial-heading leading-[1.08] uppercase">
+            <motion.h1 
+              style={{ y: textY }}
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-[68px] font-bold tracking-tight text-white light:text-neutral-900 font-editorial-heading leading-[1.08] uppercase"
+            >
               Leading <br />
-              <span className="text-[#E1A140] font-serif lowercase italic font-normal tracking-normal pr-2">aesthetic</span> Training, <br />
-              Trusted Worldwide.
-            </h1>
+              <span className="gradient-text-gold font-serif lowercase italic font-normal tracking-normal pr-2">aesthetic</span> Training, <br />
+              <span className="gradient-text-rose font-editorial-heading">Trusted Worldwide</span>.
+            </motion.h1>
 
             {/* Detailed Subheadline */}
             <p className="text-base sm:text-lg text-neutral-300 light:text-neutral-700 leading-relaxed max-w-xl font-sans font-normal">
