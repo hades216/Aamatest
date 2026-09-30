@@ -10,7 +10,7 @@ interface AAMALogoProps {
 }
 
 export function AAMALogo({ className = "", size = 54, customSrc }: AAMALogoProps) {
-  // Direct logo URL resolution: customSrc -> /logo.png -> default bundled asset
+  // Direct logo URL resolution: customSrc -> /logo.png -> /Asset 1@4x.png -> default bundled asset
   const logoUrl = customSrc || "/logo.png";
 
   return (
@@ -19,20 +19,21 @@ export function AAMALogo({ className = "", size = 54, customSrc }: AAMALogoProps
       style={{ width: size, height: size }}
       id="aama-logo-container"
     >
-      {/* Glow aura accent */}
+      {/* Subtle Glow Aura Accent */}
       <div 
-        className="absolute inset-0 rounded-full bg-[#E1A140]/30 blur-md pointer-events-none"
+        className="absolute inset-0 rounded-full bg-[#E1A140]/25 blur-md pointer-events-none"
         style={{ transform: "scale(1.15)" }}
       />
 
-      {/* Main Logo Image Container */}
+      {/* Main Logo Image Frame */}
       <div className="relative z-10 w-full h-full rounded-full overflow-hidden flex items-center justify-center border border-[#E1A140]/60 bg-[#0D0B0A] shadow-md">
         <img
           src={logoUrl}
           onError={(e) => {
-            // Fallback to bundled asset if /logo.png is not found or fails
             const target = e.currentTarget as HTMLImageElement;
-            if (target.src !== defaultLogoImg) {
+            if (target.src.includes("/logo.png")) {
+              target.src = "/Asset 1@4x.png";
+            } else if (target.src !== defaultLogoImg) {
               target.src = defaultLogoImg;
             }
           }}
