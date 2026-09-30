@@ -161,7 +161,7 @@ export function Hero({ onRegisterClick, onExploreCourses, onSelectCourseFilter }
     <section 
       ref={sectionRef}
       style={{ contentVisibility: 'auto' }}
-      className="relative min-h-screen bg-transparent pt-20 sm:pt-24 lg:pt-36 pb-16 overflow-hidden flex items-center border-b border-white/10" 
+      className="relative min-h-screen bg-transparent pt-32 sm:pt-36 lg:pt-36 pb-16 overflow-hidden flex items-center border-b border-white/10" 
       id="hero"
     >
       {/* 1. ARCHITECTURAL LUXURY AMBIENT GRAPHICS */}
