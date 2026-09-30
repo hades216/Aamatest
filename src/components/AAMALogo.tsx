@@ -1,7 +1,4 @@
 import React from "react";
-// Import default bundled logo asset as fallback
-// @ts-ignore
-import defaultLogoImg from "../assets/images/aama_logo_crest_1780602662962.png";
 
 interface AAMALogoProps {
   className?: string;
@@ -9,32 +6,30 @@ interface AAMALogoProps {
   customSrc?: string;
 }
 
-export function AAMALogo({ className = "", size = 54, customSrc }: AAMALogoProps) {
-  // Direct logo URL resolution: customSrc -> /logo.png -> /Asset 1@4x.png -> default bundled asset
-  const logoUrl = customSrc || "/logo.png";
+export function AAMALogo({ className = "", size = 64, customSrc }: AAMALogoProps) {
+  // Directly target public/Asset 1@4x.png with encoded space, or customSrc
+  const logoUrl = customSrc || "/Asset%201@4x.png";
 
   return (
     <div 
-      className={`relative inline-flex items-center justify-center select-none ${className}`}
+      className={`relative inline-flex items-center justify-center select-none shrink-0 ${className}`}
       style={{ width: size, height: size }}
-      id="aama-logo-container"
+      id="iama-brand-logo-container"
     >
-      {/* Subtle Glow Aura Accent */}
+      {/* Ambient Luxury Gold Radial Glow */}
       <div 
-        className="absolute inset-0 rounded-full bg-[#E1A140]/25 blur-md pointer-events-none"
-        style={{ transform: "scale(1.15)" }}
+        className="absolute inset-0 rounded-full bg-[#E1A140]/25 blur-lg pointer-events-none"
+        style={{ transform: "scale(1.2)" }}
       />
 
-      {/* Main Logo Image Frame */}
-      <div className="relative z-10 w-full h-full rounded-full overflow-hidden flex items-center justify-center border border-[#E1A140]/60 bg-[#0D0B0A] shadow-md">
+      {/* Clean Unclipped Pristine Image Frame */}
+      <div className="relative z-10 w-full h-full flex items-center justify-center">
         <img
           src={logoUrl}
           onError={(e) => {
             const target = e.currentTarget as HTMLImageElement;
-            if (target.src.includes("/logo.png")) {
-              target.src = "/Asset 1@4x.png";
-            } else if (target.src !== defaultLogoImg) {
-              target.src = defaultLogoImg;
+            if (!target.src.includes("logo.png")) {
+              target.src = "/logo.png";
             }
           }}
           alt="IAMA Institute Logo"
@@ -42,7 +37,7 @@ export function AAMALogo({ className = "", size = 54, customSrc }: AAMALogoProps
           width={size}
           height={size}
           decoding="async"
-          className="w-full h-full object-contain p-0.5 select-none pointer-events-none"
+          className="w-full h-full object-contain select-none pointer-events-none drop-shadow-[0_4px_16px_rgba(225,161,64,0.45)] transform hover:scale-105 transition-transform duration-300"
         />
       </div>
     </div>

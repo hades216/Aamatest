@@ -97,9 +97,15 @@ export function LoadingScreen({ onComplete, minDurationMs = 2200 }: LoadingScree
             >
               {/* Favicon Crest Image */}
               <img
-                src={logoImg}
+                src="/Asset%201@4x.png"
+                onError={(e) => {
+                  const target = e.currentTarget as HTMLImageElement;
+                  if (!target.src.includes("logo.png")) {
+                    target.src = "/logo.png";
+                  }
+                }}
                 alt="IAMA Institute Crest Logo"
-                className="w-full h-full object-cover rounded-full select-none pointer-events-none"
+                className="w-full h-full object-contain select-none pointer-events-none drop-shadow-[0_4px_16px_rgba(225,161,64,0.5)]"
               />
 
               {/* Shimmer Sweep Overlay */}
