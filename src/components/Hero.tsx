@@ -198,11 +198,11 @@ export function Hero({ onRegisterClick, onExploreCourses, onSelectCourseFilter }
 
               <a
                 href="/courses/thread-lift-masterclass"
-                className="inline-flex items-center gap-1.5 bg-[#E1A140]/20 light:bg-amber-100/90 backdrop-blur-md hover:bg-[#E1A140]/30 border border-[#E1A140]/60 px-4 py-2 rounded-full text-xs font-mono font-bold text-amber-300 light:text-amber-900 transition-all group/new shadow-sm"
+                className="inline-flex items-center gap-1.5 bg-[#E1A140]/20 [.light_&]:bg-amber-100 [.light_&]:border-amber-600/60 backdrop-blur-md hover:bg-[#E1A140]/30 [.light_&]:hover:bg-amber-200 border border-[#E1A140]/60 px-4 py-2 rounded-full text-xs font-mono font-bold text-amber-300 [.light_&]:text-amber-950 transition-all group/new shadow-sm"
               >
-                <Sparkles size={12} className="text-[#E1A140]" />
-                <span>NEW TRAINING: Thread-Lift Masterclass ISB</span>
-                <ArrowRight size={12} className="transform group-hover/new:translate-x-1 transition-transform" />
+                <Sparkles size={12} className="text-[#E1A140] [.light_&]:text-amber-700" />
+                <span className="text-amber-300 [.light_&]:text-amber-950 font-bold">NEW TRAINING: Thread-Lift Masterclass ISB</span>
+                <ArrowRight size={12} className="text-amber-300 [.light_&]:text-amber-950 transform group-hover/new:translate-x-1 transition-transform" />
               </a>
             </div>
 

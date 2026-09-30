@@ -315,3 +315,17 @@ section, header, footer, div, button, input, textarea, select {
 .animate-fade-in-up {
   animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
+/* Light Mode Badge Pill Legibility Fixes */
+html.light #accreditation-badge a {
+  background-color: #fef3c7 !important;
+  border-color: #d97706 !important;
+  color: #451a03 !important;
+}
+html.light #accreditation-badge a span {
+  color: #451a03 !important;
+}
+html.light #accreditation-badge a svg {
+  color: #b45309 !important;
+}
+
