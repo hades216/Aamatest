@@ -203,21 +203,21 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
           </div>
 
           {/* 2. CENTER COLUMN: IAMA EMBLEM LOGO PERFECTLY NESTED IN THE ARCH CURVE */}
-          {/* Mobile View: Perfectly Centered Crest & Typography aligned inside Mobile Curve */}
-          <div className="lg:hidden flex flex-col items-center justify-center shrink-0 pt-1 pb-1 z-30 translate-y-2 sm:translate-y-2.5">
+          {/* Mobile View: Absolutely Centered Crest & Typography aligned inside Mobile Curve */}
+          <div className="lg:hidden absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 translate-y-2 z-30 pointer-events-auto flex flex-col items-center justify-center text-center">
             <Link 
               to="/" 
-              className="flex flex-col items-center group cursor-pointer text-center relative z-10"
+              className="flex flex-col items-center group cursor-pointer text-center"
               id="mobile-brand-logo"
             >
               <div className="relative transform group-hover:scale-105 transition-transform duration-300">
-                <AAMALogo size={48} />
+                <AAMALogo size={44} />
               </div>
-              <div className="w-full text-center border-t border-[#E5A844]/60 pt-1 mt-1 min-w-[155px]">
-                <span className="text-sm sm:text-base tracking-[0.22em] text-[#E5A844] font-serif font-bold uppercase leading-tight block">
+              <div className="flex flex-col items-center text-center border-t border-[#E5A844]/60 pt-1 mt-1 px-2 min-w-[160px]">
+                <span className="text-xs sm:text-sm tracking-[0.22em] text-[#E5A844] font-serif font-bold uppercase leading-tight block text-center whitespace-nowrap">
                   IAMA <span className="italic font-normal lowercase font-serif text-amber-300">Institute</span>
                 </span>
-                <span className="text-[9px] sm:text-[10px] tracking-[0.16em] text-[#E5A844] font-sans uppercase block mt-1 font-bold leading-tight">
+                <span className="text-[8px] sm:text-[9px] tracking-[0.15em] text-[#E5A844] font-sans uppercase block mt-0.5 font-bold leading-tight text-center whitespace-nowrap">
                   Advanced Medical Aesthetics
                 </span>
               </div>
