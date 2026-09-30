@@ -34,8 +34,8 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
     <header className="fixed top-0 left-0 w-full z-50 bg-black/95 light:bg-white/95 backdrop-blur-md transition-all duration-300" id="main-navigation-header">
       
       {/* 1. MOBILE ARCHITECTURAL GOLD CURVE WITH CONTINUOUS LEFT-TO-RIGHT GLOWING UNDERLINE */}
-      <div className="lg:hidden absolute top-full left-0 w-full h-8 pointer-events-none overflow-visible -mt-0.5">
-        <svg className="w-full h-full text-black/95 light:text-white/95 fill-current overflow-visible" viewBox="0 0 375 28" preserveAspectRatio="none">
+      <div className="lg:hidden absolute top-full left-0 w-full h-9 pointer-events-none overflow-visible -mt-0.5">
+        <svg className="w-full h-full text-black/95 light:text-white/95 fill-current overflow-visible" viewBox="0 0 375 32" preserveAspectRatio="none">
           <defs>
             {/* Left to Right Animated Gold Glow Sweep for Mobile */}
             <linearGradient id="mobileHeaderGlow" x1="-100%" y1="0%" x2="0%" y2="0%">
@@ -50,13 +50,13 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
           </defs>
 
           {/* Header background extension fill under center logo curve */}
-          <path d="M0,0 L110,0 C140,0 150,28 187.5,28 C225,28 235,0 265,0 L375,0 L375,-2 L0,-2 Z" />
+          <path d="M0,0 L95,0 C125,0 138,32 187.5,32 C237,32 250,0 280,0 L375,0 L375,-2 L0,-2 Z" />
           
           {/* Base continuous gold stroke line */}
-          <path d="M0,0 L110,0 C140,0 150,28 187.5,28 C225,28 235,0 265,0 L375,0" fill="none" stroke="#E1A140" strokeWidth="1.5" vectorEffect="non-scaling-stroke" className="opacity-75" />
+          <path d="M0,0 L95,0 C125,0 138,32 187.5,32 C237,32 250,0 280,0 L375,0" fill="none" stroke="#E1A140" strokeWidth="1.5" vectorEffect="non-scaling-stroke" className="opacity-75" />
           
           {/* Animated Left-to-Right Luminous Laser Underline Sweep */}
-          <path d="M0,0 L110,0 C140,0 150,28 187.5,28 C225,28 235,0 265,0 L375,0" fill="none" stroke="url(#mobileHeaderGlow)" strokeWidth="2.5" vectorEffect="non-scaling-stroke" className="drop-shadow-[0_0_10px_rgba(225,161,64,0.9)]" />
+          <path d="M0,0 L95,0 C125,0 138,32 187.5,32 C237,32 250,0 280,0 L375,0" fill="none" stroke="url(#mobileHeaderGlow)" strokeWidth="2.5" vectorEffect="non-scaling-stroke" className="drop-shadow-[0_0_10px_rgba(225,161,64,0.9)]" />
         </svg>
       </div>
 
@@ -204,20 +204,20 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
 
           {/* 2. CENTER COLUMN: IAMA EMBLEM LOGO PERFECTLY NESTED IN THE ARCH CURVE */}
           {/* Mobile View: Perfectly Centered Crest & Typography aligned inside Mobile Curve */}
-          <div className="lg:hidden flex flex-col items-center justify-center shrink-0 pt-1 pb-1 z-30">
+          <div className="lg:hidden flex flex-col items-center justify-center shrink-0 pt-1 pb-1 z-30 translate-y-2 sm:translate-y-2.5">
             <Link 
               to="/" 
               className="flex flex-col items-center group cursor-pointer text-center relative z-10"
               id="mobile-brand-logo"
             >
               <div className="relative transform group-hover:scale-105 transition-transform duration-300">
-                <AAMALogo size={46} />
+                <AAMALogo size={48} />
               </div>
-              <div className="w-full text-center pt-0.5">
-                <span className="text-xs tracking-[0.2em] text-[#E5A844] font-serif font-bold uppercase leading-none block">
+              <div className="w-full text-center border-t border-[#E5A844]/60 pt-1 mt-1 min-w-[155px]">
+                <span className="text-sm sm:text-base tracking-[0.22em] text-[#E5A844] font-serif font-bold uppercase leading-tight block">
                   IAMA <span className="italic font-normal lowercase font-serif text-amber-300">Institute</span>
                 </span>
-                <span className="text-[7.5px] sm:text-[8.5px] tracking-[0.14em] text-[#E5A844]/90 font-sans uppercase block mt-0.5 font-semibold leading-none">
+                <span className="text-[9px] sm:text-[10px] tracking-[0.16em] text-[#E5A844] font-sans uppercase block mt-1 font-bold leading-tight">
                   Advanced Medical Aesthetics
                 </span>
               </div>
