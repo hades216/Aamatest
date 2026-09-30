@@ -1,0 +1,231 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   PREMIUM LUXURY TYPOGRAPHY & DESIGN TOKENS
+   Aesthetic Medicine Clinics • Luxury Editorial • Haute Horlogerie • High-End Education
+   ========================================================================== */
+
+:root {
+  /* Brand Fonts */
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-heading: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-brand: "Cinzel", serif;
+
+  /* Typography Fluid Scale */
+  --text-display-2xl: clamp(2.75rem, 6vw, 4.75rem);
+  --text-display-xl: clamp(2.25rem, 4.5vw, 3.75rem);
+  --text-h1: clamp(2rem, 3.5vw, 2.75rem);
+  --text-h2: clamp(1.65rem, 2.6vw, 2.25rem);
+  --text-h3: clamp(1.35rem, 2vw, 1.75rem);
+  --text-h4: clamp(1.15rem, 1.5vw, 1.35rem);
+  --text-h5: 1.125rem;
+  --text-h6: 1rem;
+  --text-body-lead: 1.125rem;
+  --text-body: 1rem;
+  --text-body-sm: 0.875rem;
+  --text-caption: 0.75rem;
+
+  /* Tracking (Letter Spacing) */
+  --tracking-tightest: -0.035em;
+  --tracking-tight: -0.015em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.04em;
+  --tracking-wider: 0.09em;
+  --tracking-widest: 0.16em;
+  --tracking-luxury: 0.22em;
+
+  /* Leading (Line Heights) */
+  --leading-display: 1.05;
+  --leading-heading: 1.18;
+  --leading-snug: 1.35;
+  --leading-body: 1.7;
+  --leading-relaxed: 1.8;
+
+  /* Theme Colors - Dark Theme Baseline */
+  --neutral-950: #060607;
+  --neutral-900: #0D0E11;
+  --neutral-850: #15171C;
+  --neutral-800: #1F2228;
+  --color-white-val: #FFFFFF;
+  
+  /* High-legibility contrast text tokens */
+  --text-neutral-100: #FFFFFF;
+  --text-neutral-200: #F3F4F6;
+  --text-neutral-300: #E5E7EB;
+  --text-neutral-350: #D1D5DB;
+  --text-neutral-400: #A1A7B3;
+  --text-neutral-405: #8C93A0;
+  --text-neutral-550: #6B7280;
+  --text-neutral-500: #4B5563;
+  
+  /* Luxury Warm Gold & Amber */
+  --amber-400: #F6BE58;
+  --amber-500: #E1A140;
+  --amber-600: #C28527;
+  
+  --gold-50: #FDFBF7;
+  --gold-100: #F8EEDB;
+  --gold-500: #E1A140;
+  --gold-600: #C28527;
+  --gold-700: #9C6C1F;
+}
+
+html.light {
+  /* Warm Clinical Pearl & Pure White Surface */
+  --neutral-950: #FAFAF8;
+  --neutral-900: #FFFFFF;
+  --neutral-850: #F4F3EE;
+  --neutral-800: #E9E7E0;
+  
+  /* High-contrast rich charcoal text */
+  --color-white-val: #0F172A;
+  
+  --text-neutral-100: #0A0D14;
+  --text-neutral-200: #1E293B;
+  --text-neutral-300: #334155;
+  --text-neutral-350: #475569;
+  --text-neutral-400: #64748B;
+  --text-neutral-405: #64748B;
+  --text-neutral-550: #94A3B8;
+  --text-neutral-500: #64748B;
+  
+  --amber-400: #D98E1A;
+  --amber-500: #B77817;
+  --amber-600: #8E5A0B;
+  
+  --gold-50: #FFFDF9;
+  --gold-100: #F4EAD7;
+  --gold-500: #B77817;
+  --gold-600: #8E5A0B;
+  --gold-700: #6B4204;
+}
+
+@theme {
+  --color-amber-400: var(--amber-400);
+  --color-amber-500: var(--amber-500);
+  --color-amber-600: var(--amber-600);
+  
+  --color-gold-50: var(--gold-50);
+  --color-gold-100: var(--gold-100);
+  --color-gold-500: var(--gold-500);
+  --color-gold-600: var(--gold-600);
+  --color-gold-700: var(--gold-700);
+  
+  --color-neutral-950: var(--neutral-950);
+  --color-neutral-900: var(--neutral-900);
+  --color-neutral-850: var(--neutral-850);
+  --color-neutral-800: var(--neutral-800);
+  
+  --color-white: var(--color-white-val);
+  
+  --color-neutral-100: var(--text-neutral-100);
+  --color-neutral-200: var(--text-neutral-200);
+  --color-neutral-300: var(--text-neutral-300);
+  --color-neutral-350: var(--text-neutral-350);
+  --color-neutral-400: var(--text-neutral-400);
+  --color-neutral-405: var(--text-neutral-405);
+  --color-neutral-550: var(--text-neutral-550);
+  --color-neutral-500: var(--text-neutral-500);
+  
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-heading);
+  --font-serif: var(--font-serif);
+  --font-heading: var(--font-heading);
+  --font-mono: var(--font-mono);
+  --font-brand: var(--font-brand);
+}
+
+/* Base Body Setup */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 95px;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--neutral-950);
+  color: var(--color-white);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: var(--leading-body);
+  transition: background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), color 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Typography Utility Classes */
+.font-editorial-serif {
+  font-family: var(--font-serif);
+  font-feature-settings: "liga" 1, "dlig" 1, "kern" 1;
+}
+
+.font-editorial-heading {
+  font-family: var(--font-heading);
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+}
+
+/* Mobile Scroll & Entrance Animations */
+@keyframes mobileSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mobile-animate-up {
+  animation: mobileSlideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.font-editorial-sans {
+  font-family: var(--font-sans);
+  letter-spacing: -0.005em;
+}
+
+.font-editorial-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.05em;
+}
+
+/* Luxury Heading Helpers */
+h1, h2, h3, h4, h5, h6 {
+  font-feature-settings: "liga" 1, "kern" 1;
+  text-wrap: balance;
+}
+
+/* High contrast inputs placeholders */
+input::placeholder, textarea::placeholder, select::placeholder {
+  color: var(--text-neutral-400) !important;
+  opacity: 0.85;
+}
+
+/* Smooth micro-interaction transitions */
+section, header, footer, div, button, input, textarea, select {
+  transition-property: background-color, border-color, text-decoration-color, fill, stroke, transform, opacity;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  transition-duration: 250ms;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
