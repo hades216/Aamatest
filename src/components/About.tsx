@@ -47,7 +47,7 @@ export function About() {
                 <div className="aspect-[3/4] overflow-hidden relative bg-neutral-950">
                   <img
                     src={drShumailaImg}
-                    alt="Dr. Shumaila Khan - Consultant Dermatologist & Academic Director of IAAMA"
+                    alt="Dr. Shumaila Khan - Consultant Dermatologist & Academic Director of IAMA"
                     loading="lazy"
                     decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
@@ -98,7 +98,7 @@ export function About() {
             <div className="lg:col-span-7 space-y-6 text-left">
               <div className="inline-flex items-center gap-2 bg-[#E1A140]/10 border border-[#E1A140]/30 px-3.5 py-1 text-xs uppercase font-bold tracking-[0.2em] text-[#E1A140] font-mono">
                 <Stethoscope size={14} />
-                <span>CLINICAL ACADEMY DIRECTOR</span>
+                <span>CLINICAL INSTITUTE DIRECTOR</span>
               </div>
 
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white light:text-neutral-900 uppercase font-editorial-heading leading-tight">
@@ -107,7 +107,7 @@ export function About() {
 
               <div className="space-y-4 text-sm sm:text-base text-neutral-300 font-sans leading-relaxed">
                 <p>
-                  With over 15 years of dedicated clinical practice in medical dermatology, energy-based laser devices, and advanced non-surgical aesthetics, <strong>Dr. Shumaila Khan</strong> serves as the Course Director and Lead Instructor at the Academy of Advanced Medical Aesthetics (IAAMA).
+                  With over 15 years of dedicated clinical practice in medical dermatology, energy-based laser devices, and advanced non-surgical aesthetics, <strong>Dr. Shumaila Khan</strong> serves as the Course Director and Lead Instructor at the Institute of Advance Medical Aesthetics (IAMA).
                 </p>
                 <p>
                   Dr. Shumaila has trained over 1,200+ registered physicians and dental surgeons across Pakistan and abroad. Her pedagogical philosophy is uncompromising: <em>every doctor must develop deep 3D vascular safety instincts, master micro-cannula vector resuspension, and gain extensive hands-on experience exclusively on live human patient models</em>.
@@ -154,7 +154,7 @@ export function About() {
           </div>
         </div>
 
-        {/* BOTTOM SECTION: ACADEMY METHODOLOGY & STATS */}
+        {/* BOTTOM SECTION: INSTITUTE METHODOLOGY & STATS */}
         <div className="grid lg:grid-cols-12 gap-12 items-center">
           
           {/* LEFT: TEXT COPY & MISSION TAB CONTROLLER */}
@@ -170,7 +170,7 @@ export function About() {
             <div className="w-16 h-[2px] bg-[#E1A140] my-4"></div>
 
             <p className="text-base sm:text-lg text-neutral-300 font-sans font-normal leading-relaxed">
-              The Academy of Advanced Medical Aesthetics (IAAMA Pakistan) is the national premier educational institute 
+              The Institute of Advance Medical Aesthetics (IAMA Pakistan) is the national premier educational institute 
               specifically engineered to transition registered medical professionals into world-class aesthetic injectors. 
               We bridge the gap between academic clinical dermatology and practical execution.
             </p>
@@ -228,13 +228,13 @@ export function About() {
               {activeTab === "standards" && (
                 <div className="space-y-4 animate-in fade-in duration-300">
                   <p className="font-normal text-neutral-300">
-                    Aesthetic practice carries high physical clinical responsibilities. IAAMA places extreme emphasis on 
+                    Aesthetic practice carries high physical clinical responsibilities. IAMA places extreme emphasis on 
                     the avoidance, diagnostics, and emergency handling of vascular occlusion, blindness, skin necrosis, 
                     and severe hypersensitivity reactions. We train doctors to inject with deep anatomic caution.
                   </p>
                   <div className="bg-amber-500/10 p-4 rounded-none border border-amber-500/30 flex gap-3 text-xs sm:text-sm text-neutral-200">
                     <ShieldAlert size={18} className="text-[#E1A140] shrink-0 mt-0.5" />
-                    <span>Every IAAMA workspace candidate is trained in emergency enzyme reconstitution (Hyaluronidase protocols) with sharp-needle vs. rounded micro-cannula safety diagnostics.</span>
+                    <span>Every IAMA workspace candidate is trained in emergency enzyme reconstitution (Hyaluronidase protocols) with sharp-needle vs. rounded micro-cannula safety diagnostics.</span>
                   </div>
                 </div>
               )}
@@ -242,7 +242,7 @@ export function About() {
               {activeTab === "methodology" && (
                 <div className="space-y-4 animate-in fade-in duration-300">
                   <p className="font-normal text-neutral-300">
-                    Theory is useless without muscle-memory. While other courses rely on synthetic plastic medical heads or silicon pads, IAAMA maintains a rigid <strong className="text-white">live patient model policy</strong>. Candidates observe Dr. Shumaila inject, map and calibrate, and subsequently inject the patient candidate themselves under 1-on-1 supervision.
+                    Theory is useless without muscle-memory. While other courses rely on synthetic plastic medical heads or silicon pads, IAMA maintains a rigid <strong className="text-white">live patient model policy</strong>. Candidates observe Dr. Shumaila inject, map and calibrate, and subsequently inject the patient candidate themselves under 1-on-1 supervision.
                   </p>
                   <ul className="space-y-2.5 text-sm text-neutral-200">
                     <li className="flex items-start gap-2.5">
@@ -262,7 +262,7 @@ export function About() {
             <div className="border-l-4 border-[#E1A140] pl-5 py-2 italic text-sm sm:text-base text-neutral-300 leading-relaxed font-serif">
               "Injecting is not merely delivering a chemical bolus. It is the three-dimensional sculpt of a living patient’s structural expression and health."
               <span className="block text-xs font-mono uppercase tracking-wider text-[#E1A140] mt-2.5 not-italic font-bold">
-                — DR. SHUMAILA KHAN, IAAMA ACADEMIC DIRECTOR
+                — DR. SHUMAILA KHAN, IAMA ACADEMIC DIRECTOR
               </span>
             </div>
 

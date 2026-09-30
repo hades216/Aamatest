@@ -71,7 +71,7 @@ export function Faculty() {
                 </div>
 
                 <p className="text-xs sm:text-sm text-neutral-300 light:text-neutral-700 leading-relaxed">
-                  Dr. Shumaila Khan is a leading authority in clinical dermatology, energy-based devices, and aesthetic facial vector resuspension in Pakistan. With over 15 years of consulting experience, she leads every clinical syllabus at IAAMA Academy, training doctors on 1:1 live patient models with strict anatomical safety protocols.
+                  Dr. Shumaila Khan is a leading authority in clinical dermatology, energy-based devices, and aesthetic facial vector resuspension in Pakistan. With over 15 years of consulting experience, she leads every clinical syllabus at IAMA Institute, training doctors on 1:1 live patient models with strict anatomical safety protocols.
                 </p>
               </div>
 

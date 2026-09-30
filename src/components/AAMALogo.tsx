@@ -52,7 +52,7 @@ export function AAMALogo({ className = "", size = 72 }: AAMALogoProps) {
       >
         <img
           src={logoImg}
-          alt="Academy of Advanced Medical Aesthetics Logo"
+          alt="Institute of Advance Medical Aesthetics Logo"
           referrerPolicy="no-referrer"
           width={size}
           height={size}

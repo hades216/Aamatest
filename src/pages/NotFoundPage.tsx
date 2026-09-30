@@ -7,7 +7,7 @@ export function NotFoundPage() {
   return (
     <div className="bg-neutral-950 text-white min-h-[80vh] flex flex-col items-center justify-center p-8 text-center pt-36">
       <SEO
-        title="404 - Page Not Found | IAAMA Academy"
+        title="404 - Page Not Found | IAMA Institute"
         description="The aesthetic medical section or syllabus link you requested is unavailable or has been relocated."
       />
       <div className="max-w-md mx-auto">

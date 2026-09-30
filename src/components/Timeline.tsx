@@ -18,7 +18,7 @@ export function Timeline() {
     {
       step: "03",
       title: "Accredited Certification",
-      desc: "Receive your UK CPD accredited certificate and official IAAMA fellowship credentials upon rigorous clinical assessment.",
+      desc: "Receive your UK CPD accredited certificate and official IAMA fellowship credentials upon rigorous clinical assessment.",
       icon: Award
     },
     {

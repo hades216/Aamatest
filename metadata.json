@@ -1,6 +1,6 @@
 {
-  "name": "IAAMA Academy",
-  "description": "Premium training academy providing beginner to advanced level Aesthetic Medicine training courses for registered medical professionals in Pakistan.",
+  "name": "IAMA Institute",
+  "description": "Premium training institute providing beginner to advanced level Aesthetic Medicine training courses for registered medical professionals in Pakistan.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

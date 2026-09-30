@@ -41,13 +41,13 @@ export function ContactPage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title="Contact & Campus Locations | IAAMA Academy"
+        title="Contact & Campus Locations | IAMA Institute"
         description="Contact our admissions registrars across Lahore DHA, Karachi Clifton, and Islamabad F-7 campuses for physician aesthetic training enrollments."
       />
       {/* 1. CONTACT HERO WITH SCROLL PARALLAX */}
       <ParallaxHeader
         imageSrc={suiteImg}
-        imageAlt="IAAMA Campus Locations & Contact Desk"
+        imageAlt="IAMA Campus Locations & Contact Desk"
         className="py-16 md:py-24 px-4 md:px-8"
         speed={0.35}
         overlayOpacity="opacity-35"

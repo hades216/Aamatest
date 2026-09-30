@@ -98,7 +98,7 @@ export function LoadingScreen({ onComplete, minDurationMs = 2200 }: LoadingScree
               {/* Favicon Crest Image */}
               <img
                 src={logoImg}
-                alt="IAAMA Academy Crest Logo"
+                alt="IAMA Institute Crest Logo"
                 className="w-full h-full object-cover rounded-full select-none pointer-events-none"
               />
 
@@ -118,7 +118,7 @@ export function LoadingScreen({ onComplete, minDurationMs = 2200 }: LoadingScree
               className="mt-6 inline-flex items-center gap-2 bg-[#E1A140]/10 border border-[#E1A140]/40 px-3.5 py-1 text-[10px] sm:text-xs font-mono font-bold uppercase tracking-widest text-[#E1A140] rounded-full backdrop-blur-md shadow-md"
             >
               <ShieldCheck size={13} className="text-[#E1A140]" />
-              <span>UK CPD ACCREDITED ACADEMY</span>
+              <span>UK CPD ACCREDITED INSTITUTE</span>
             </motion.div>
           </div>
 
@@ -130,10 +130,10 @@ export function LoadingScreen({ onComplete, minDurationMs = 2200 }: LoadingScree
             className="text-center space-y-2 z-10 max-w-md"
           >
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif font-light uppercase tracking-[0.28em] text-[#E1A140]">
-              IAAMA <span className="italic font-normal lowercase font-serif text-amber-300">Academy</span>
+              IAMA <span className="italic font-normal lowercase font-serif text-amber-300">Institute</span>
             </h1>
             <p className="text-[10px] sm:text-xs font-sans tracking-[0.22em] uppercase font-semibold text-neutral-400">
-              Academy of Advanced Medical Aesthetics
+              Institute of Advance Medical Aesthetics
             </p>
           </motion.div>
 

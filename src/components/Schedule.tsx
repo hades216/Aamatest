@@ -21,7 +21,7 @@ export function Schedule() {
       id: "lh-1",
       city: "lahore",
       date: "Saturday, October 24, 2026",
-      venue: "IAAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
+      venue: "IAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
       module: "Facial Sculpting & MD Codes™ Masterclass",
       totalSeats: 15,
       openSeats: 4,
@@ -32,7 +32,7 @@ export function Schedule() {
       id: "lh-2",
       city: "lahore",
       date: "Sunday, October 25, 2026",
-      venue: "IAAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
+      venue: "IAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
       module: "Advanced Non-Surgical Thread-Lift Masterclass",
       totalSeats: 12,
       openSeats: 3,
@@ -43,7 +43,7 @@ export function Schedule() {
       id: "kh-1",
       city: "karachi",
       date: "Saturday, July 11, 2026",
-      venue: "IAAMA Partner Aesthetics Centre, Block 4, Clifton, Karachi",
+      venue: "IAMA Partner Aesthetics Centre, Block 4, Clifton, Karachi",
       module: "Basic & Advanced Botox Masterclass",
       totalSeats: 15,
       openSeats: 3,
@@ -54,7 +54,7 @@ export function Schedule() {
       id: "kh-2",
       city: "karachi",
       date: "Sunday, July 12, 2026",
-      venue: "IAAMA Partner Aesthetics Centre, Block 4, Clifton, Karachi",
+      venue: "IAMA Partner Aesthetics Centre, Block 4, Clifton, Karachi",
       module: "Aesthetic Dermal Fillers (Volumisation Codes)",
       totalSeats: 12,
       openSeats: 5,
@@ -65,7 +65,7 @@ export function Schedule() {
       id: "is-1",
       city: "islamabad",
       date: "Saturday, August 01, 2026",
-      venue: "IAAMA Executive Complex, Sector G-8, Islamabad",
+      venue: "IAMA Executive Complex, Sector G-8, Islamabad",
       module: "Masterclass in Profiloplasty & Liquid Rhinoplasty",
       totalSeats: 10,
       openSeats: 2,
@@ -76,7 +76,7 @@ export function Schedule() {
       id: "is-2",
       city: "islamabad",
       date: "Sunday, August 02, 2026",
-      venue: "IAAMA Executive Complex, Sector G-8, Islamabad",
+      venue: "IAMA Executive Complex, Sector G-8, Islamabad",
       module: "Combined Botox & Dynamic Fillers Masterclass",
       totalSeats: 15,
       openSeats: 4,
@@ -93,7 +93,7 @@ export function Schedule() {
     { time: "11:30 AM - 01:00 PM", event: "Mentor Live Demonstration & Mapping", details: "Mentor maps faces live, evaluating muscle resistance, skin vectors, and inject angles. Interactive candidate calibration." },
     { time: "01:00 PM - 02:00 PM", event: "Clinical Buffet & Networking", details: "Exclusive private dining with colleagues and international aesthetic consultants to share local clinical insights." },
     { time: "02:00 PM - 05:30 PM", event: "Supervised Hands-on Candidate Injecting", details: "Strictly supervised 1-on-1 hands-on candidate injection on pre-screened models. Validating grip stability, depth, and safety." },
-    { time: "05:30 PM - 06:00 PM", event: "Certificate Ceremony & Portals Access", details: "Distribution of accredited CPD certifications, peer photography, and granting entry to the global IAAMA Pakistan Alumni Portal." }
+    { time: "05:30 PM - 06:00 PM", event: "Certificate Ceremony & Portals Access", details: "Distribution of accredited CPD certifications, peer photography, and granting entry to the global IAMA Pakistan Alumni Portal." }
   ];
 
   return (

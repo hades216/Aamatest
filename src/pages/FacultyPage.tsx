@@ -25,13 +25,13 @@ export function FacultyPage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title="Faculty & Master Trainer Dr. Shumaila Khan | IAAMA Academy"
-        description="Meet Dr. Shumaila Khan, Consultant Dermatologist and Academic Director of IAAMA Academy. Explore her clinical background, masterclasses, and 1:1 training methodology."
+        title="Faculty & Master Trainer Dr. Shumaila Khan | IAMA Institute"
+        description="Meet Dr. Shumaila Khan, Consultant Dermatologist and Academic Director of IAMA Institute. Explore her clinical background, masterclasses, and 1:1 training methodology."
       />
       {/* 1. FACULTY HEADER WITH SCROLL PARALLAX */}
       <ParallaxHeader
         imageSrc={brightModelImg}
-        imageAlt="IAAMA Faculty & Clinical Leadership"
+        imageAlt="IAMA Faculty & Clinical Leadership"
         className="py-16 md:py-24 px-4 md:px-8"
         speed={0.35}
         overlayOpacity="opacity-35"
@@ -43,11 +43,11 @@ export function FacultyPage() {
           Clinical Leadership &amp; <span className="gradient-text-gold font-serif lowercase italic font-normal">mentorship</span>
         </h1>
         <p className="text-neutral-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto font-sans">
-          Under the direct guidance of <strong>Dr. Shumaila Khan</strong>, IAAMA Academy delivers world-class, 1:1 live patient training designed to establish highest medical precision and safety in aesthetic practice.
+          Under the direct guidance of <strong>Dr. Shumaila Khan</strong>, IAMA Institute delivers world-class, 1:1 live patient training designed to establish highest medical precision and safety in aesthetic practice.
         </p>
       </ParallaxHeader>
 
-      {/* 2. ACADEMY FOUNDERS & FACULTY LEADERSHIP */}
+      {/* 2. INSTITUTE FOUNDERS & FACULTY LEADERSHIP */}
       <section className="py-20 px-4 md:px-8 bg-neutral-950 light:bg-stone-50 border-b border-white/10 light:border-neutral-200">
         <div className="max-w-7xl mx-auto space-y-16">
           {FACULTY_DATA.map((faculty) => (
@@ -92,7 +92,7 @@ export function FacultyPage() {
                     >
                       <div className="flex items-center gap-2">
                         <Instagram size={16} />
-                        <span>{faculty.instagram ? faculty.instagram.replace("https://www.instagram.com/", "@").replace(/\/$/, "") : "@aama.academy"}</span>
+                        <span>{faculty.instagram ? faculty.instagram.replace("https://www.instagram.com/", "@").replace(/\/$/, "") : "@aama.institute"}</span>
                       </div>
                       <span className="text-[10px] flex items-center gap-1 font-mono font-bold">
                         <span>Follow Profile</span>
@@ -162,7 +162,7 @@ export function FacultyPage() {
             Clinical Governance &amp; UK CPD Verification
           </h2>
           <p className="text-neutral-300 light:text-neutral-700 text-sm sm:text-base leading-relaxed mb-8 max-w-2xl mx-auto">
-            IAAMA maintains direct bilateral adherence to UK and European Aesthetic Medicine training frameworks. Every masterclass is audited for patient safety, sterile protocols, and vascular emergency readiness.
+            IAMA maintains direct bilateral adherence to UK and European Aesthetic Medicine training frameworks. Every masterclass is audited for patient safety, sterile protocols, and vascular emergency readiness.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">

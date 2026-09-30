@@ -33,10 +33,10 @@ export function Footer() {
               <AAMALogo size={68} />
               <div>
                 <h4 className="text-lg font-bold tracking-[0.15em] uppercase font-editorial-heading text-white">
-                  IAAMA <span className="text-[#E1A140]">Academy</span>
+                  IAMA <span className="text-[#E1A140]">Institute</span>
                 </h4>
                 <p className="text-xs tracking-wider text-neutral-400 uppercase font-mono">
-                  Academy of Advanced Medical Aesthetics
+                  Institute of Advance Medical Aesthetics
                 </p>
               </div>
             </div>
@@ -87,24 +87,24 @@ export function Footer() {
               </a>
 
               <a 
-                href="https://www.instagram.com/aama.academy/" 
+                href="https://www.instagram.com/aama.institute/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center gap-2.5 bg-neutral-900 hover:bg-neutral-850 border border-white/15 px-3 py-2 rounded-full text-xs font-bold text-neutral-200 hover:text-[#E1A140] transition-colors cursor-pointer group shadow-sm backdrop-blur-md"
               >
                 <Instagram size={16} className="text-rose-400 transform group-hover:scale-110 transition-transform" />
                 <div className="text-left font-sans">
-                  <p className="text-xs font-bold m-0 text-white">@aama.academy</p>
-                  <p className="text-[9px] text-neutral-400 font-normal m-0 uppercase tracking-wider font-mono">Academy Official</p>
+                  <p className="text-xs font-bold m-0 text-white">@aama.institute</p>
+                  <p className="text-[9px] text-neutral-400 font-normal m-0 uppercase tracking-wider font-mono">Institute Official</p>
                 </div>
               </a>
             </div>
           </div>
 
-          {/* COLUMN 2: QUICK ACADEMY LINKS */}
+          {/* COLUMN 2: QUICK INSTITUTE LINKS */}
           <div className="lg:col-span-3 text-left space-y-4 font-sans">
             <h4 className="text-xs font-bold uppercase tracking-[0.15em] text-[#E1A140] font-mono">
-              Academy Portals
+              Institute Portals
             </h4>
             
             <ul className="space-y-2 text-xs sm:text-sm text-neutral-300 font-sans">
@@ -117,7 +117,7 @@ export function Footer() {
               <li>
                 <Link to="/about" className="hover:text-[#E1A140] transition-colors flex items-center gap-1.5">
                   <ChevronRight size={13} className="text-[#E1A140]" />
-                  <span>About IAAMA</span>
+                  <span>About IAMA</span>
                 </Link>
               </li>
               <li>
@@ -228,14 +228,14 @@ export function Footer() {
               </form>
             )}
             <p className="text-xs text-neutral-400 mt-1.5 font-sans">
-              Strict privacy: IAAMA does not share doctor credentials with third-party networks.
+              Strict privacy: IAMA does not share doctor credentials with third-party networks.
             </p>
           </div>
 
           <div className="lg:col-span-6 flex flex-col sm:flex-row sm:justify-end items-center gap-6 font-sans">
             <div className="text-center sm:text-right space-y-1">
               <p className="m-0 text-xs uppercase font-mono tracking-wider text-neutral-400 font-medium">
-                © {new Date().getFullYear()} IAAMA Pakistan. All rights reserved.
+                © {new Date().getFullYear()} IAMA Pakistan. All rights reserved.
               </p>
               <p className="m-0 text-xs text-neutral-400 font-normal">
                 Accredited by Continuous Professional Development Assembly (UK). PM&amp;DC aligned guidelines.

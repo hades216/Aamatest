@@ -46,7 +46,7 @@ export function HomePage() {
   return (
     <div className="bg-transparent text-white selection:bg-[#E1A140] selection:text-black">
       <SEO
-        title="IAAMA Academy | Academy of Advanced Medical Aesthetics"
+        title="IAMA Institute | Institute of Advance Medical Aesthetics"
         description="Premier hands-on aesthetic medicine training courses for registered medical professionals. Certified Botox, Dermal Fillers, Lasers, and Liquid Rhinoplasty masterclasses."
       />
       {/* 1. HERO SECTION */}
@@ -316,7 +316,7 @@ export function HomePage() {
               },
               {
                 title: "Fellowship Convocation & CPD Pinning",
-                location: "IAAMA Grand Auditorium",
+                location: "IAMA Grand Auditorium",
                 image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=900",
                 caption: "Registered doctors awarded Board Fellowship in Clinical Aesthetic Medicine."
               }
@@ -376,7 +376,7 @@ export function HomePage() {
             transition={{ duration: 0.6 }}
             className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white light:text-neutral-900 uppercase font-editorial-heading mb-6"
           >
-            Advance Your Clinical Practice with <span className="gradient-text-gold font-serif lowercase italic font-normal">IAAMA Academy</span>
+            Advance Your Clinical Practice with <span className="gradient-text-gold font-serif lowercase italic font-normal">IAMA Institute</span>
           </motion.h2>
 
           <p className="text-neutral-300 text-base md:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">

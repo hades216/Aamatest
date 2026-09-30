@@ -10,7 +10,7 @@ interface SEOProps {
 }
 
 export function SEO({
-  title = "IAAMA Academy | Academy of Advanced Medical Aesthetics",
+  title = "IAMA Institute | Institute of Advance Medical Aesthetics",
   description = "Premier hands-on aesthetic medicine training courses for registered medical professionals. Certified Botox, Dermal Fillers, Lasers, and Liquid Rhinoplasty masterclasses in Pakistan.",
   image = "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200",
   type = "website",

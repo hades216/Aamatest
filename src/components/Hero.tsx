@@ -192,7 +192,7 @@ export function Hero({ onRegisterClick, onExploreCourses, onSelectCourseFilter }
               <div className="inline-flex items-center gap-2.5 bg-neutral-900/80 light:bg-white/80 backdrop-blur-md border border-white/20 light:border-neutral-300 px-4 py-2 rounded-full shadow-md">
                 <span className="w-2 h-2 rounded-full bg-[#E1A140] animate-pulse"></span>
                 <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#E1A140] font-sans">
-                  IAAMA Pakistan • Hands-on Accreditation
+                  IAMA Pakistan • Hands-on Accreditation
                 </span>
               </div>
 
@@ -251,13 +251,13 @@ export function Hero({ onRegisterClick, onExploreCourses, onSelectCourseFilter }
 
               {/* Accredit 3 */}
               <div className="flex items-center gap-3">
-                <svg className="w-9 h-9 text-neutral-350 shrink-0" viewBox="0 0 40 40" fill="none" aria-label="IAAMA London Badge">
+                <svg className="w-9 h-9 text-neutral-350 shrink-0" viewBox="0 0 40 40" fill="none" aria-label="IAMA London Badge">
                   <path d="M8 8 H32 V32 H8 Z" stroke="currentColor" strokeWidth="1.5" opacity="0.8" />
                   <path d="M12 12 H28 V28 H12 Z" stroke="currentColor" strokeWidth="0.5" strokeDasharray="2 2" opacity="0.6" />
                   <circle cx="20" cy="20" r="6" stroke="currentColor" strokeWidth="1.5" />
                 </svg>
                 <div className="text-left font-sans">
-                  <p className="text-xs font-extrabold tracking-widest text-neutral-200 leading-tight uppercase">IAAMA LONDON</p>
+                  <p className="text-xs font-extrabold tracking-widest text-neutral-200 leading-tight uppercase">IAMA LONDON</p>
                   <p className="text-xs text-neutral-400 mt-0.5 uppercase leading-tight font-medium">Affiliated Chapter</p>
                 </div>
               </div>
@@ -442,7 +442,7 @@ export function Hero({ onRegisterClick, onExploreCourses, onSelectCourseFilter }
                   </div>
                   <div className="pt-3 border-t border-white/10 mt-3 flex items-center justify-between text-xs">
                     <span className="text-neutral-350">Module: <strong className="text-neutral-100">{activeArea.course}</strong></span>
-                    <span className="text-[#E1A140] font-bold uppercase font-mono tracking-wider">IAAMA Certified</span>
+                    <span className="text-[#E1A140] font-bold uppercase font-mono tracking-wider">IAMA Certified</span>
                   </div>
                 </div>
               ) : (

@@ -33,13 +33,13 @@ export function AboutPage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title="About Dr. Shumaila Khan & IAAMA | Academy of Advanced Medical Aesthetics"
-        description="Meet Dr. Shumaila Khan, Consultant Dermatologist and Academic Director of IAAMA Academy. Explore our UK CPD accredited 1:1 medical aesthetics training methodology."
+        title="About Dr. Shumaila Khan & IAMA | Institute of Advance Medical Aesthetics"
+        description="Meet Dr. Shumaila Khan, Consultant Dermatologist and Academic Director of IAMA Institute. Explore our UK CPD accredited 1:1 medical aesthetics training methodology."
       />
       {/* 1. HERO HEADER WITH SCROLL PARALLAX */}
       <ParallaxHeader
         imageSrc={suiteImg}
-        imageAlt="IAAMA Academy Clinical Suites & Architecture"
+        imageAlt="IAMA Institute Clinical Suites & Architecture"
         className="py-16 md:py-24 px-4 md:px-8"
         speed={0.35}
         overlayOpacity="opacity-35"
@@ -48,11 +48,11 @@ export function AboutPage() {
           Pioneering Medical Aesthetic Excellence
         </p>
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white uppercase font-editorial-heading mb-6">
-          Academy of Advanced <br className="hidden sm:inline" />
+          Institute of Advanced <br className="hidden sm:inline" />
           <span className="text-[#E1A140] font-serif lowercase italic font-normal">medical aesthetics</span>
         </h1>
         <p className="text-neutral-300 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto font-sans">
-          Under the clinical leadership of <strong>Dr. Shumaila Khan</strong>, IAAMA Academy sets the benchmark for aesthetic medicine training across Pakistan, strictly adhering to UK CPD and international clinical safety protocols.
+          Under the clinical leadership of <strong>Dr. Shumaila Khan</strong>, IAMA Institute sets the benchmark for aesthetic medicine training across Pakistan, strictly adhering to UK CPD and international clinical safety protocols.
         </p>
       </ParallaxHeader>
 
@@ -63,13 +63,13 @@ export function AboutPage() {
           <div className="text-center max-w-3xl mx-auto space-y-3">
             <div className="inline-flex items-center gap-2 bg-[#E1A140]/10 border border-[#E1A140]/30 px-3.5 py-1 text-xs uppercase font-bold tracking-wider text-[#E1A140] font-mono rounded-full backdrop-blur-md">
               <Stethoscope size={14} />
-              <span>ACADEMY LEADERSHIP &amp; FOUNDERS</span>
+              <span>INSTITUTE LEADERSHIP &amp; FOUNDERS</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold uppercase font-editorial-heading text-white">
               Pioneering <span className="text-[#E1A140] font-serif lowercase italic font-normal">aesthetic medicine</span> in Pakistan
             </h2>
             <p className="text-neutral-300 text-sm sm:text-base leading-relaxed font-sans">
-              Founded by <strong>Dr. Shumaila Khan</strong>, Co-Founded by <strong>Prof. Brig(R) Asher Ahmed Mashhood</strong>, and led by Master Trainer <strong>Dr. Aisha Zubair</strong>, IAAMA Academy establishes UK-accredited 1:1 live patient training and ethical clinical governance across Pakistan.
+              Founded by <strong>Dr. Shumaila Khan</strong>, Co-Founded by <strong>Prof. Brig(R) Asher Ahmed Mashhood</strong>, and led by Master Trainer <strong>Dr. Aisha Zubair</strong>, IAMA Institute establishes UK-accredited 1:1 live patient training and ethical clinical governance across Pakistan.
             </p>
           </div>
 
@@ -104,7 +104,7 @@ export function AboutPage() {
                       MBBS, FCPS (Dermatology), Board Certified Master Trainer, Member IACD
                     </p>
                     <p className="text-xs sm:text-sm text-neutral-300 light:text-neutral-700 mt-3 font-sans leading-relaxed">
-                      Dr. Shumaila Khan is the Founder and Academic Director of IAAMA Academy. Recognized across Pakistan for non-surgical facial sculpting and laser technologies, she personally directs every curriculum to enforce 1:1 live patient model training.
+                      Dr. Shumaila Khan is the Founder and Academic Director of IAMA Institute. Recognized across Pakistan for non-surgical facial sculpting and laser technologies, she personally directs every curriculum to enforce 1:1 live patient model training.
                     </p>
                   </div>
                 </div>
@@ -158,7 +158,7 @@ export function AboutPage() {
                       MBBS, FCPS (Dermatology), Professor, Supervisor &amp; Examiner (30+ Years Leadership)
                     </p>
                     <p className="text-xs sm:text-sm text-neutral-300 light:text-neutral-700 mt-3 font-sans leading-relaxed">
-                      Prof. Brig(R) Asher Ahmed Mashhood is the Co-Founder of IAAMA Academy and a luminary in Pakistan's dermatology landscape with 30+ years of distinguished clinical excellence. Renowned as a professor, supervisor, and examiner in laser technologies and advanced aesthetic dermatology, he co-founded IAAMA Academy to champion ethical clinical governance.
+                      Prof. Brig(R) Asher Ahmed Mashhood is the Co-Founder of IAMA Institute and a luminary in Pakistan's dermatology landscape with 30+ years of distinguished clinical excellence. Renowned as a professor, supervisor, and examiner in laser technologies and advanced aesthetic dermatology, he co-founded IAMA Institute to champion ethical clinical governance.
                     </p>
                   </div>
                 </div>
@@ -249,7 +249,7 @@ export function AboutPage() {
               Academic Governance
             </p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold uppercase font-editorial-heading text-white">
-              The IAAMA <span className="text-[#E1A140] font-serif lowercase italic font-normal">standard</span> of excellence
+              The IAMA <span className="text-[#E1A140] font-serif lowercase italic font-normal">standard</span> of excellence
             </h2>
           </div>
 

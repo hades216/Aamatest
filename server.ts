@@ -31,7 +31,7 @@ const memoryGallery = [
     id: "3",
     category: "convocation",
     title: "Fellowship Convocation & UK CPD Pinning Ceremony",
-    location: "IAAMA Grand Auditorium",
+    location: "IAMA Grand Auditorium",
     date: "Spring Batch",
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200",
     caption: "Over 35 registered doctors awarded Board Fellowship in Clinical Aesthetic Medicine (FAM).",
@@ -92,7 +92,7 @@ async function startServer() {
         location: location || 'Lahore Campus',
         date: date || 'Recent',
         image,
-        caption: caption || 'IAAMA clinical training highlight',
+        caption: caption || 'IAMA clinical training highlight',
         createdAt: new Date()
       };
 
@@ -165,8 +165,8 @@ async function startServer() {
 
   // In-memory fallback stores for dev/standalone runtime
   const memoryRegistrations: any[] = [
-    { id: "IAAMA-2026-892104", name: "Dr. Ahmed Khan", email: "ahmed.khan@gmail.com", phone: "+92 300 1234567", pmdc: "45218-P", course: "Botox Masterclass (Basic & Advanced)", city: "Lahore", date: "2026-03-25", status: "Verified" },
-    { id: "IAAMA-2026-554102", name: "Dr. Fatima Malik", email: "fatima.m@hotmail.com", phone: "+92 321 9876543", pmdc: "33102-S", course: "Aesthetic Fillers Masterclass", city: "Karachi", date: "2026-03-24", status: "Pending Review" }
+    { id: "IAMA-2026-892104", name: "Dr. Ahmed Khan", email: "ahmed.khan@gmail.com", phone: "+92 300 1234567", pmdc: "45218-P", course: "Botox Masterclass (Basic & Advanced)", city: "Lahore", date: "2026-03-25", status: "Verified" },
+    { id: "IAMA-2026-554102", name: "Dr. Fatima Malik", email: "fatima.m@hotmail.com", phone: "+92 321 9876543", pmdc: "33102-S", course: "Aesthetic Fillers Masterclass", city: "Karachi", date: "2026-03-24", status: "Pending Review" }
   ];
   const memoryContentMap: Record<string, any> = {};
 
