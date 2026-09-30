@@ -27,15 +27,12 @@ export function Hero({ onRegisterClick, onExploreCourses, onSelectCourseFilter }
   const [isDragging, setIsDragging] = useState<boolean>(false);
   const containerRef = React.useRef<HTMLDivElement>(null);
 
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start start", "end start"]
-  });
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll();
 
-  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "22%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
-  const badgeY = useTransform(scrollYProgress, [0, 1], ["0%", "-25%"]);
+  const bgY = useTransform(scrollYProgress, [0, 0.4], ["0%", "20%"]);
+  const textY = useTransform(scrollYProgress, [0, 0.4], ["0%", "10%"]);
+  const badgeY = useTransform(scrollYProgress, [0, 0.4], ["0%", "-20%"]);
 
   const handlePointerMove = (clientX: number) => {
     if (!containerRef.current) return;
@@ -162,6 +159,7 @@ export function Hero({ onRegisterClick, onExploreCourses, onSelectCourseFilter }
 
   return (
     <section 
+      ref={sectionRef}
       style={{ contentVisibility: 'auto' }}
       className="relative min-h-screen bg-transparent pt-28 lg:pt-36 pb-16 overflow-hidden flex items-center border-b border-white/10" 
       id="hero"
