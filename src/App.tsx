@@ -24,7 +24,7 @@ import { GlobalVisualEditsApplier } from "./components/GlobalVisualEditsApplier"
 import { LuxuryBackground } from "./components/LuxuryBackground";
 
 // Static App Versioning Strategy for Cache Busting
-export const APP_VERSION = "1.9.0";
+export const APP_VERSION = "2.0.0";
 
 export function getVersionedAsset(url: string): string {
   if (!url) return url;
