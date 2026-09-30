@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import { ChevronDown, Menu, X, Sun, Moon, GraduationCap } from "lucide-react";
+import { ChevronDown, Menu, X, Sun, Moon } from "lucide-react";
 import { AAMALogo } from "./AAMALogo";
 import { COURSES_DATA } from "../data/coursesData";
 
@@ -31,19 +31,64 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-black/95 light:bg-white/95 backdrop-blur-md transition-all duration-300 border-b border-[#E1A140]/30 lg:border-b-0" id="main-navigation-header">
-      {/* DESKTOP ONLY: CONTINUOUS EDGE-TO-EDGE GOLD ARCHITECTURAL BORDER LINE WITH CENTER LOGO CURVE */}
+    <header className="fixed top-0 left-0 w-full z-50 bg-black/95 light:bg-white/95 backdrop-blur-md transition-all duration-300" id="main-navigation-header">
+      
+      {/* 1. MOBILE ARCHITECTURAL GOLD CURVE WITH CONTINUOUS LEFT-TO-RIGHT GLOWING UNDERLINE */}
+      <div className="lg:hidden absolute top-full left-0 w-full h-8 pointer-events-none overflow-visible -mt-0.5">
+        <svg className="w-full h-full text-black/95 light:text-white/95 fill-current overflow-visible" viewBox="0 0 375 28" preserveAspectRatio="none">
+          <defs>
+            {/* Left to Right Animated Gold Glow Sweep for Mobile */}
+            <linearGradient id="mobileHeaderGlow" x1="-100%" y1="0%" x2="0%" y2="0%">
+              <stop offset="0%" stopColor="#E1A140" stopOpacity="0.1" />
+              <stop offset="35%" stopColor="#E1A140" stopOpacity="0.8" />
+              <stop offset="50%" stopColor="#FFFFFF" stopOpacity="1" />
+              <stop offset="65%" stopColor="#FFEBB3" stopOpacity="1" />
+              <stop offset="100%" stopColor="#E1A140" stopOpacity="0.1" />
+              <animate attributeName="x1" from="-100%" to="100%" dur="3.2s" repeatCount="indefinite" />
+              <animate attributeName="x2" from="0%" to="200%" dur="3.2s" repeatCount="indefinite" />
+            </linearGradient>
+          </defs>
+
+          {/* Header background extension fill under center logo curve */}
+          <path d="M0,0 L110,0 C140,0 150,28 187.5,28 C225,28 235,0 265,0 L375,0 L375,-2 L0,-2 Z" />
+          
+          {/* Base continuous gold stroke line */}
+          <path d="M0,0 L110,0 C140,0 150,28 187.5,28 C225,28 235,0 265,0 L375,0" fill="none" stroke="#E1A140" strokeWidth="1.5" vectorEffect="non-scaling-stroke" className="opacity-75" />
+          
+          {/* Animated Left-to-Right Luminous Laser Underline Sweep */}
+          <path d="M0,0 L110,0 C140,0 150,28 187.5,28 C225,28 235,0 265,0 L375,0" fill="none" stroke="url(#mobileHeaderGlow)" strokeWidth="2.5" vectorEffect="non-scaling-stroke" className="drop-shadow-[0_0_10px_rgba(225,161,64,0.9)]" />
+        </svg>
+      </div>
+
+      {/* 2. DESKTOP ARCHITECTURAL GOLD CURVE WITH CONTINUOUS LEFT-TO-RIGHT GLOWING UNDERLINE */}
       <div className="hidden lg:block absolute top-full left-0 w-full h-8 pointer-events-none overflow-visible -mt-0.5">
         <svg className="w-full h-full text-black/95 light:text-white/95 fill-current overflow-visible" viewBox="0 0 1000 32" preserveAspectRatio="none">
+          <defs>
+            {/* Left to Right Animated Gold Glow Sweep for Desktop */}
+            <linearGradient id="desktopHeaderGlow" x1="-100%" y1="0%" x2="0%" y2="0%">
+              <stop offset="0%" stopColor="#E1A140" stopOpacity="0.1" />
+              <stop offset="35%" stopColor="#E1A140" stopOpacity="0.8" />
+              <stop offset="50%" stopColor="#FFFFFF" stopOpacity="1" />
+              <stop offset="65%" stopColor="#FFEBB3" stopOpacity="1" />
+              <stop offset="100%" stopColor="#E1A140" stopOpacity="0.1" />
+              <animate attributeName="x1" from="-100%" to="100%" dur="3.8s" repeatCount="indefinite" />
+              <animate attributeName="x2" from="0%" to="200%" dur="3.8s" repeatCount="indefinite" />
+            </linearGradient>
+          </defs>
+
           {/* Header background extension fill under center logo curve */}
           <path d="M0,0 L410,0 C445,0 455,32 500,32 C545,32 555,0 590,0 L1000,0 L1000,-2 L0,-2 Z" />
-          {/* Continuous edge-to-edge gold stroke line */}
-          <path d="M0,0 L410,0 C445,0 455,32 500,32 C545,32 555,0 590,0 L1000,0" fill="none" stroke="#E1A140" strokeWidth="2" vectorEffect="non-scaling-stroke" className="opacity-90" />
+          
+          {/* Base continuous gold stroke line */}
+          <path d="M0,0 L410,0 C445,0 455,32 500,32 C545,32 555,0 590,0 L1000,0" fill="none" stroke="#E1A140" strokeWidth="2" vectorEffect="non-scaling-stroke" className="opacity-80" />
+          
+          {/* Animated Left-to-Right Luminous Laser Underline Sweep */}
+          <path d="M0,0 L410,0 C445,0 455,32 500,32 C545,32 555,0 590,0 L1000,0" fill="none" stroke="url(#desktopHeaderGlow)" strokeWidth="3" vectorEffect="non-scaling-stroke" className="drop-shadow-[0_0_12px_rgba(225,161,64,0.95)]" />
         </svg>
       </div>
 
       <div className="w-full px-3 sm:px-6 lg:px-8 xl:px-10">
-        <div className="flex items-center justify-between h-16 sm:h-20 lg:h-28">
+        <div className="flex items-center justify-between h-20 sm:h-22 lg:h-28">
           
           {/* 1. LEFT COLUMN: Mobile Menu Button (Mobile) / Nav Links & Handbook (Desktop) */}
           <div className="flex items-center gap-2 sm:gap-4 flex-1 justify-start">
@@ -157,22 +202,22 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
             </nav>
           </div>
 
-          {/* 2. CENTER COLUMN: IAMA EMBLEM LOGO */}
-          {/* Mobile View: Sleek Inline Horizontal Header Logo */}
-          <div className="lg:hidden flex items-center justify-center shrink-0">
+          {/* 2. CENTER COLUMN: IAMA EMBLEM LOGO PERFECTLY NESTED IN THE ARCH CURVE */}
+          {/* Mobile View: Perfectly Centered Crest & Typography aligned inside Mobile Curve */}
+          <div className="lg:hidden flex flex-col items-center justify-center shrink-0 pt-1 pb-1 z-30">
             <Link 
               to="/" 
-              className="flex items-center gap-2 group cursor-pointer text-left"
+              className="flex flex-col items-center group cursor-pointer text-center relative z-10"
               id="mobile-brand-logo"
             >
-              <div className="shrink-0 transform group-hover:scale-105 transition-transform duration-300">
-                <AAMALogo size={38} />
+              <div className="relative transform group-hover:scale-105 transition-transform duration-300">
+                <AAMALogo size={46} />
               </div>
-              <div className="flex flex-col">
-                <span className="text-xs sm:text-sm tracking-[0.2em] text-[#E5A844] font-serif font-bold uppercase leading-tight">
+              <div className="w-full text-center pt-0.5">
+                <span className="text-xs tracking-[0.2em] text-[#E5A844] font-serif font-bold uppercase leading-none block">
                   IAMA <span className="italic font-normal lowercase font-serif text-amber-300">Institute</span>
                 </span>
-                <span className="text-[7.5px] sm:text-[8.5px] tracking-[0.14em] text-[#E5A844]/90 font-sans uppercase font-semibold leading-tight">
+                <span className="text-[7.5px] sm:text-[8.5px] tracking-[0.14em] text-[#E5A844]/90 font-sans uppercase block mt-0.5 font-semibold leading-none">
                   Advanced Medical Aesthetics
                 </span>
               </div>
@@ -187,7 +232,7 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
               id="desktop-brand-logo"
             >
               <div className="relative transform group-hover:scale-105 transition-transform duration-300 pointer-events-none">
-                <AAMALogo size={54} />
+                <AAMALogo size={58} />
               </div>
 
               {/* IAMA Typography */}
