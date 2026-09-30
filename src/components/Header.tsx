@@ -154,7 +154,7 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
             </nav>
           </div>
 
-          {/* 2. CENTER COLUMN: AAMA EMBLEM LOGO */}
+          {/* 2. CENTER COLUMN: IAAMA EMBLEM LOGO */}
           <div className="relative flex flex-col items-center justify-center shrink-0 px-3 sm:px-6 pt-1 pb-2 z-30">
             <Link 
               to="/" 
@@ -165,10 +165,10 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
                 <AAMALogo size={58} />
               </div>
 
-              {/* AAMA Typography */}
+              {/* IAAMA Typography */}
               <div className="w-full text-center border-t border-[#E5A844]/60 pt-1 mt-1 min-w-[135px]">
                 <span className="text-sm sm:text-base tracking-[0.24em] text-[#E5A844] font-serif font-medium uppercase block leading-none">
-                  AAMA <span className="italic font-normal lowercase font-serif text-amber-300">Academy</span>
+                  IAAMA <span className="italic font-normal lowercase font-serif text-amber-300">Academy</span>
                 </span>
                 <span className="text-[8px] sm:text-[9px] tracking-[0.18em] text-[#E5A844]/90 font-sans uppercase block mt-1 font-semibold leading-none">
                   Advanced Medical Aesthetics
@@ -297,7 +297,7 @@ export function Header({ theme = "dark", onToggleTheme }: HeaderProps) {
               onClick={() => setMobileMenuOpen(false)}
               className="py-2.5 border-b border-[#E5A844]/20 uppercase tracking-widest text-xs hover:text-[#E5A844] transition-colors"
             >
-              About AAMA
+              About IAAMA
             </Link>
             <Link
               to="/courses"

@@ -90,7 +90,7 @@ export function RegistrationForm({ prefilledCourse, onSuccess }: RegistrationFor
     // Simulate clinical licensing background evaluation
     setTimeout(() => {
       const randHex = Math.floor(100000 + Math.random() * 900000).toString(16).toUpperCase();
-      const refId = `AAMA-2026-${randHex}`;
+      const refId = `IAAMA-2026-${randHex}`;
       
       const newApp: Application = {
         refId,

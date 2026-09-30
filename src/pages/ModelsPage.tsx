@@ -56,20 +56,20 @@ export function ModelsPage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title="Clinical Model Patient Program | AAMA Academy"
+        title="Clinical Model Patient Program | IAAMA Academy"
         description="Become a patient model for subsidized, 100% non-surgical aesthetic treatments (Botox, Fillers, Profhilo, PRP) performed by registered doctors under senior specialist supervision."
       />
       {/* 1. HERO SECTION WITH SCROLL PARALLAX */}
       <ParallaxHeader
         imageSrc={brightModelImg}
-        imageAlt="AAMA Clinical Patient Model Program"
+        imageAlt="IAAMA Clinical Patient Model Program"
         className="py-16 md:py-24 px-4 md:px-8"
         speed={0.35}
         overlayOpacity="opacity-35"
       >
         <div className="inline-flex items-center gap-2 bg-[#E1A140]/10 border border-[#E1A140]/30 px-3.5 py-1.5 text-xs uppercase font-bold tracking-[0.2em] text-[#E1A140] mb-4 font-mono">
           <Sparkles size={14} />
-          <span>AAMA Clinical Patient Model Program</span>
+          <span>IAAMA Clinical Patient Model Program</span>
         </div>
         
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white uppercase font-editorial-heading mb-6">

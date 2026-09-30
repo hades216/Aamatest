@@ -33,7 +33,7 @@ export function CourseDetailPage() {
     return (
       <div className="bg-neutral-950 text-white min-h-[70vh] flex flex-col items-center justify-center p-8 text-center pt-36">
         <SEO
-          title="Curriculum Not Found | AAMA Academy"
+          title="Curriculum Not Found | IAAMA Academy"
           description="The requested medical aesthetic masterclass was not found. Browse all active 2026 courses."
         />
         <AlertCircle size={48} className="text-[#E1A140] mb-4" />
@@ -56,7 +56,7 @@ export function CourseDetailPage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title={`${course.name} | AAMA Academy`}
+        title={`${course.name} | IAAMA Academy`}
         description={`${course.subtitle} Accredited 1:1 live patient training course for PM&DC doctors in Pakistan.`}
         image={course.image}
       />

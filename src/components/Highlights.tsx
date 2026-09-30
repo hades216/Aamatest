@@ -42,7 +42,7 @@ export function Highlights() {
           title: "Mastering Facial Aesthetics",
           badge: "Hands-on Workshop",
           icon: <Award className="text-amber-500" />,
-          description: "AAMA provides advanced neuromodulator training on actual patient models under the direct supervision of international aesthetic mentors.",
+          description: "IAAMA provides advanced neuromodulator training on actual patient models under the direct supervision of international aesthetic mentors.",
           bullets: [
             "Dosage dilution & reconstructive calculations",
             "Symmetry calibration using precise callipers",
@@ -144,19 +144,19 @@ export function Highlights() {
       id: "highlights",
       tag: "Highlights",
       imageUrl: suiteImg,
-      title: "AAMA Legacy",
+      title: "IAAMA Legacy",
       slides: [
         {
           title: "Academic Legacy",
           badge: "CPD ACCREDITATION",
           icon: <Award className="text-amber-500" />,
-          description: "AAMA Academy is proud to set rigorous standards for candidate certification, producing the most precise medical injectors in Pakistan.",
+          description: "IAAMA Academy is proud to set rigorous standards for candidate certification, producing the most precise medical injectors in Pakistan.",
           bullets: [
             "Residencies mentored by certified aesthetic practitioners",
             "High faculty-to-student training ratios",
             "Graduates launching thriving private clinics nationwide"
           ],
-          imgAlt: "AAMA formal certificate presentation ceremony",
+          imgAlt: "IAAMA formal certificate presentation ceremony",
           accentColor: "from-red-600 to-amber-650",
           bgImage: suiteImg
         }
@@ -311,19 +311,19 @@ export function Highlights() {
                   ))}
                 </div>
 
-                {/* 2. Header Info Row (AAMA Profile icon + title + close buttons) */}
+                {/* 2. Header Info Row (IAAMA Profile icon + title + close buttons) */}
                 <div className="flex justify-between items-center text-zinc-100">
                   <div className="flex items-center gap-2.5">
                     {/* Circle micro-pfp */}
                     <div className="w-8 h-8 rounded-full border border-amber-500/40 p-[1.5px] bg-gradient-to-tr from-amber-500 to-rose-500">
                       <div className="w-full h-full rounded-full bg-[#050505] flex items-center justify-center font-bold text-[9px] text-amber-400">
-                        AAMA
+                        IAAMA
                       </div>
                     </div>
                     <div>
                       <p className="text-xs font-extrabold tracking-wide m-0 text-zinc-100">aama.academy</p>
                       <p className="text-[9px] text-zinc-400 m-0 flex items-center gap-1 leading-none">
-                        <span>AAMA Pakistan</span>
+                        <span>IAAMA Pakistan</span>
                         <span className="w-1 h-1 rounded-full bg-[#B48425]"></span>
                         <span>{activeStory.title}</span>
                       </p>

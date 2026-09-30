@@ -77,8 +77,8 @@ export function AdminPage() {
       try { return JSON.parse(saved); } catch { /* ignore */ }
     }
     return [
-      { id: "AAMA-2026-892104", name: "Dr. Ahmed Khan", email: "ahmed.khan@gmail.com", phone: "+92 300 1234567", pmdc: "45218-P", course: "Botox Masterclass (Basic & Advanced)", city: "Lahore", date: "2026-03-25", status: "Verified" },
-      { id: "AAMA-2026-554102", name: "Dr. Fatima Malik", email: "fatima.m@hotmail.com", phone: "+92 321 9876543", pmdc: "33102-S", course: "Aesthetic Fillers Masterclass", city: "Karachi", date: "2026-03-24", status: "Pending Review" }
+      { id: "IAAMA-2026-892104", name: "Dr. Ahmed Khan", email: "ahmed.khan@gmail.com", phone: "+92 300 1234567", pmdc: "45218-P", course: "Botox Masterclass (Basic & Advanced)", city: "Lahore", date: "2026-03-25", status: "Verified" },
+      { id: "IAAMA-2026-554102", name: "Dr. Fatima Malik", email: "fatima.m@hotmail.com", phone: "+92 321 9876543", pmdc: "33102-S", course: "Aesthetic Fillers Masterclass", city: "Karachi", date: "2026-03-24", status: "Pending Review" }
     ];
   });
   const [courses] = useState(() => COURSES_DATA);
@@ -173,7 +173,7 @@ export function AdminPage() {
   if (!isAuthenticated) {
     return (
       <div className="min-h-screen bg-neutral-950 text-white flex items-center justify-center px-4 pt-28 pb-12">
-        <SEO title="Admin Portal | AAMA Academy" description="Secure administration portal for AAMA Academy." />
+        <SEO title="Admin Portal | IAAMA Academy" description="Secure administration portal for IAAMA Academy." />
         <div className="max-w-md w-full bg-neutral-900 border border-white/15 p-8 shadow-2xl relative">
           <div className="absolute top-0 left-0 right-0 h-1 bg-[#E1A140]"></div>
           
@@ -182,7 +182,7 @@ export function AdminPage() {
               <Lock size={24} />
             </div>
             <span className="text-xs uppercase font-mono tracking-widest text-[#E1A140] font-bold">Secure Gateway</span>
-            <h1 className="text-2xl font-bold uppercase font-editorial-heading mt-1">AAMA Control Center</h1>
+            <h1 className="text-2xl font-bold uppercase font-editorial-heading mt-1">IAAMA Control Center</h1>
             <p className="text-xs text-neutral-400 mt-2">Enter your security PIN to access the admin CMS and Visual Edit Mode.</p>
           </div>
 
@@ -239,7 +239,7 @@ export function AdminPage() {
 
   return (
     <div className="min-h-screen bg-neutral-950 text-white pt-24 pb-16 px-4 md:px-8">
-      <SEO title="Admin CMS Dashboard | AAMA Academy" description="Professional administration dashboard and visual editor for AAMA Academy." />
+      <SEO title="Admin CMS Dashboard | IAAMA Academy" description="Professional administration dashboard and visual editor for IAAMA Academy." />
       
       <div className="max-w-7xl mx-auto">
         
@@ -254,7 +254,7 @@ export function AdminPage() {
                 <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
                 <span className="text-[10px] uppercase font-mono tracking-widest text-[#E1A140] font-bold">Secure Session Active</span>
               </div>
-              <h1 className="text-xl sm:text-2xl font-bold uppercase font-editorial-heading">AAMA Academy Control Console</h1>
+              <h1 className="text-xl sm:text-2xl font-bold uppercase font-editorial-heading">IAAMA Academy Control Console</h1>
             </div>
           </div>
 

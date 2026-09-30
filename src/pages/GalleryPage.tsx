@@ -90,7 +90,7 @@ export function GalleryPage() {
           location: newLocation.trim(),
           date: 'Custom Upload',
           image: newImageUrl.trim(),
-          caption: newCaption.trim() || 'AAMA clinical training highlight.'
+          caption: newCaption.trim() || 'IAAMA clinical training highlight.'
         })
       });
       if (res.ok) {
@@ -104,7 +104,7 @@ export function GalleryPage() {
           location: newLocation.trim(),
           date: "Custom Upload",
           image: newImageUrl.trim(),
-          caption: newCaption.trim() || "AAMA clinical training highlight."
+          caption: newCaption.trim() || "IAAMA clinical training highlight."
         };
         setGalleryItems([newItem, ...galleryItems]);
       }
@@ -116,7 +116,7 @@ export function GalleryPage() {
         location: newLocation.trim(),
         date: "Custom Upload",
         image: newImageUrl.trim(),
-        caption: newCaption.trim() || "AAMA clinical training highlight."
+        caption: newCaption.trim() || "IAAMA clinical training highlight."
       };
       setGalleryItems([newItem, ...galleryItems]);
     }
@@ -133,13 +133,13 @@ export function GalleryPage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title="Clinical Gallery & Training Archive | AAMA Academy"
+        title="Clinical Gallery & Training Archive | IAAMA Academy"
         description="Explore authentic moments from our hands-on 1:1 doctor aesthetic training workshops, live patient lip threading, rhinoplasty cases, and convocation ceremonies."
       />
       {/* 1. HERO HEADER WITH SCROLL PARALLAX */}
       <ParallaxHeader
         imageSrc={clinicalImg}
-        imageAlt="AAMA Clinical Gallery & Training Archive"
+        imageAlt="IAAMA Clinical Gallery & Training Archive"
         className="py-16 md:py-24 px-4 md:px-8"
         speed={0.35}
         overlayOpacity="opacity-35"
@@ -520,7 +520,7 @@ export function GalleryPage() {
             Join Pakistan's Premier Aesthetic Physician Network
           </h2>
           <p className="text-neutral-300 text-sm mb-8 leading-relaxed">
-            Gain immediate access to private emergency clinical discussion groups, live webinars, and annual alumni symposia upon completing any AAMA masterclass.
+            Gain immediate access to private emergency clinical discussion groups, live webinars, and annual alumni symposia upon completing any IAAMA masterclass.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

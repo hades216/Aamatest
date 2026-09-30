@@ -81,14 +81,14 @@ export function CoursesPage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title="Medical Aesthetic Masterclasses & Fellowships | AAMA Academy"
+        title="Medical Aesthetic Masterclasses & Fellowships | IAAMA Academy"
         description="Explore accredited aesthetic medicine curriculums: Botox, Dermal Fillers, Liquid Rhinoplasty, Medical Lasers, and Board Fellowships for licensed medical practitioners."
       />
 
       {/* 1. COURSES HUB HEADER WITH SCROLL PARALLAX */}
       <ParallaxHeader
         imageSrc={clinicalImg}
-        imageAlt="AAMA Aesthetic Medicine Training Courses"
+        imageAlt="IAAMA Aesthetic Medicine Training Courses"
         className="py-16 md:py-24 px-4 md:px-8"
         speed={0.35}
         overlayOpacity="opacity-35"

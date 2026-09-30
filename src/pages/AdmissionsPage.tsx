@@ -58,7 +58,7 @@ export function AdmissionsPage() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      setSubmissionId(`AAMA-2026-${Math.floor(100000 + Math.random() * 900000)}`);
+      setSubmissionId(`IAAMA-2026-${Math.floor(100000 + Math.random() * 900000)}`);
       setSubmitted(true);
       window.scrollTo({ top: 0, behavior: "smooth" });
     }, 1200);
@@ -67,8 +67,8 @@ export function AdmissionsPage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title="Doctor Admissions & PM&DC Verification | AAMA Academy"
-        description="Verify your medical council registration and enroll in AAMA aesthetic medicine masterclasses and fellowships in Lahore, Karachi, and Islamabad."
+        title="Doctor Admissions & PM&DC Verification | IAAMA Academy"
+        description="Verify your medical council registration and enroll in IAAMA aesthetic medicine masterclasses and fellowships in Lahore, Karachi, and Islamabad."
       />
       {/* 1. ADMISSIONS HERO HEADER WITH SCROLL PARALLAX */}
       <ParallaxHeader
@@ -103,7 +103,7 @@ export function AdmissionsPage() {
                 Verification &amp; Admission Received
               </span>
               <h2 className="text-2xl sm:text-3xl font-bold uppercase font-editorial-heading text-white mb-4">
-                Welcome to AAMA Academy, Dr. {formData.fullName}
+                Welcome to IAAMA Academy, Dr. {formData.fullName}
               </h2>
               <p className="text-neutral-300 text-sm leading-relaxed mb-6">
                 Your medical verification dossier has been submitted. Our Academic Registrar is reviewing your PM&amp;DC registration (<strong>{formData.pmdcNumber}</strong>) and will contact you via WhatsApp / Phone within 4 business hours.
@@ -325,7 +325,7 @@ export function AdmissionsPage() {
                       className="mt-1 accent-[#E1A140]"
                     />
                     <label htmlFor="pmdc-confirm" className="text-xs text-neutral-300 leading-relaxed">
-                      I solemnly affirm that I am a registered medical doctor/dentist holding a valid medical council registration, and I understand that AAMA aesthetic credentials are strictly non-transferable to non-medical personnel.
+                      I solemnly affirm that I am a registered medical doctor/dentist holding a valid medical council registration, and I understand that IAAMA aesthetic credentials are strictly non-transferable to non-medical personnel.
                     </label>
                   </div>
 

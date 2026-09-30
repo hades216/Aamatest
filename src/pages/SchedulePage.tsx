@@ -53,13 +53,13 @@ export function SchedulePage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title="2026 Course Schedule & Timetable | AAMA Academy"
+        title="2026 Course Schedule & Timetable | IAAMA Academy"
         description="View upcoming aesthetic training cohort dates across Lahore, Karachi, and Islamabad. Small batches limited to 10-12 doctors for maximum hands-on exposure."
       />
       {/* 1. SCHEDULE HERO WITH SCROLL PARALLAX */}
       <ParallaxHeader
         imageSrc={laserImg}
-        imageAlt="AAMA Aesthetic Medicine Timetable & Cohort Dates"
+        imageAlt="IAAMA Aesthetic Medicine Timetable & Cohort Dates"
         className="py-16 md:py-24 px-4 md:px-8"
         speed={0.35}
         overlayOpacity="opacity-35"
@@ -112,7 +112,7 @@ export function SchedulePage() {
           <div className="max-w-7xl mx-auto mt-3 p-3 bg-emerald-950/80 border border-emerald-500/40 text-emerald-300 text-xs font-mono flex items-center justify-between animate-in fade-in">
             <span className="flex items-center gap-2">
               <CheckCircle2 size={14} className="text-emerald-400" />
-              <span>AAMA 2026 Academic Calendar &amp; Curriculum Prospectus downloaded successfully.</span>
+              <span>IAAMA 2026 Academic Calendar &amp; Curriculum Prospectus downloaded successfully.</span>
             </span>
             <button onClick={() => setDownloadNotice(false)} className="text-emerald-400 hover:underline">
               Dismiss

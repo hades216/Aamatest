@@ -33,13 +33,13 @@ export function AboutPage() {
   return (
     <div className="bg-neutral-950 text-white selection:bg-[#E1A140] selection:text-black pt-28">
       <SEO
-        title="About Dr. Shumaila Khan & AAMA | Academy of Advanced Medical Aesthetics"
-        description="Meet Dr. Shumaila Khan, Consultant Dermatologist and Academic Director of AAMA Academy. Explore our UK CPD accredited 1:1 medical aesthetics training methodology."
+        title="About Dr. Shumaila Khan & IAAMA | Academy of Advanced Medical Aesthetics"
+        description="Meet Dr. Shumaila Khan, Consultant Dermatologist and Academic Director of IAAMA Academy. Explore our UK CPD accredited 1:1 medical aesthetics training methodology."
       />
       {/* 1. HERO HEADER WITH SCROLL PARALLAX */}
       <ParallaxHeader
         imageSrc={suiteImg}
-        imageAlt="AAMA Academy Clinical Suites & Architecture"
+        imageAlt="IAAMA Academy Clinical Suites & Architecture"
         className="py-16 md:py-24 px-4 md:px-8"
         speed={0.35}
         overlayOpacity="opacity-35"
@@ -52,7 +52,7 @@ export function AboutPage() {
           <span className="text-[#E1A140] font-serif lowercase italic font-normal">medical aesthetics</span>
         </h1>
         <p className="text-neutral-300 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto font-sans">
-          Under the clinical leadership of <strong>Dr. Shumaila Khan</strong>, AAMA Academy sets the benchmark for aesthetic medicine training across Pakistan, strictly adhering to UK CPD and international clinical safety protocols.
+          Under the clinical leadership of <strong>Dr. Shumaila Khan</strong>, IAAMA Academy sets the benchmark for aesthetic medicine training across Pakistan, strictly adhering to UK CPD and international clinical safety protocols.
         </p>
       </ParallaxHeader>
 
@@ -69,7 +69,7 @@ export function AboutPage() {
               Pioneering <span className="text-[#E1A140] font-serif lowercase italic font-normal">aesthetic medicine</span> in Pakistan
             </h2>
             <p className="text-neutral-300 text-sm sm:text-base leading-relaxed font-sans">
-              Founded by <strong>Dr. Shumaila Khan</strong>, Co-Founded by <strong>Prof. Brig(R) Asher Ahmed Mashhood</strong>, and led by Master Trainer <strong>Dr. Aisha Zubair</strong>, AAMA Academy establishes UK-accredited 1:1 live patient training and ethical clinical governance across Pakistan.
+              Founded by <strong>Dr. Shumaila Khan</strong>, Co-Founded by <strong>Prof. Brig(R) Asher Ahmed Mashhood</strong>, and led by Master Trainer <strong>Dr. Aisha Zubair</strong>, IAAMA Academy establishes UK-accredited 1:1 live patient training and ethical clinical governance across Pakistan.
             </p>
           </div>
 
@@ -104,7 +104,7 @@ export function AboutPage() {
                       MBBS, FCPS (Dermatology), Board Certified Master Trainer, Member IACD
                     </p>
                     <p className="text-xs sm:text-sm text-neutral-300 light:text-neutral-700 mt-3 font-sans leading-relaxed">
-                      Dr. Shumaila Khan is the Founder and Academic Director of AAMA Academy. Recognized across Pakistan for non-surgical facial sculpting and laser technologies, she personally directs every curriculum to enforce 1:1 live patient model training.
+                      Dr. Shumaila Khan is the Founder and Academic Director of IAAMA Academy. Recognized across Pakistan for non-surgical facial sculpting and laser technologies, she personally directs every curriculum to enforce 1:1 live patient model training.
                     </p>
                   </div>
                 </div>
@@ -158,7 +158,7 @@ export function AboutPage() {
                       MBBS, FCPS (Dermatology), Professor, Supervisor &amp; Examiner (30+ Years Leadership)
                     </p>
                     <p className="text-xs sm:text-sm text-neutral-300 light:text-neutral-700 mt-3 font-sans leading-relaxed">
-                      Prof. Brig(R) Asher Ahmed Mashhood is the Co-Founder of AAMA Academy and a luminary in Pakistan's dermatology landscape with 30+ years of distinguished clinical excellence. Renowned as a professor, supervisor, and examiner in laser technologies and advanced aesthetic dermatology, he co-founded AAMA Academy to champion ethical clinical governance.
+                      Prof. Brig(R) Asher Ahmed Mashhood is the Co-Founder of IAAMA Academy and a luminary in Pakistan's dermatology landscape with 30+ years of distinguished clinical excellence. Renowned as a professor, supervisor, and examiner in laser technologies and advanced aesthetic dermatology, he co-founded IAAMA Academy to champion ethical clinical governance.
                     </p>
                   </div>
                 </div>
@@ -249,7 +249,7 @@ export function AboutPage() {
               Academic Governance
             </p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold uppercase font-editorial-heading text-white">
-              The AAMA <span className="text-[#E1A140] font-serif lowercase italic font-normal">standard</span> of excellence
+              The IAAMA <span className="text-[#E1A140] font-serif lowercase italic font-normal">standard</span> of excellence
             </h2>
           </div>
 

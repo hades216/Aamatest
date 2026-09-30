@@ -98,7 +98,7 @@ export function LoadingScreen({ onComplete, minDurationMs = 2200 }: LoadingScree
               {/* Favicon Crest Image */}
               <img
                 src={logoImg}
-                alt="AAMA Academy Crest Logo"
+                alt="IAAMA Academy Crest Logo"
                 className="w-full h-full object-cover rounded-full select-none pointer-events-none"
               />
 
@@ -130,7 +130,7 @@ export function LoadingScreen({ onComplete, minDurationMs = 2200 }: LoadingScree
             className="text-center space-y-2 z-10 max-w-md"
           >
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif font-light uppercase tracking-[0.28em] text-[#E1A140]">
-              AAMA <span className="italic font-normal lowercase font-serif text-amber-300">Academy</span>
+              IAAMA <span className="italic font-normal lowercase font-serif text-amber-300">Academy</span>
             </h1>
             <p className="text-[10px] sm:text-xs font-sans tracking-[0.22em] uppercase font-semibold text-neutral-400">
               Academy of Advanced Medical Aesthetics

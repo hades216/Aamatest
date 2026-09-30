@@ -67,7 +67,7 @@ export const COURSES_DATA: Course[] = [
     certification: "UK CPD Verified Self-Directed Learning & Clinical Reference Certificate",
     image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&q=80&w=900",
     concept: "An authoritative desk companion containing high-resolution 3D vascular diagrams, safe injection depths, exact reconstitution mathematics, and emergency salvage algorithms.",
-    description: "The Aesthetic Injector Handbook is the indispensable clinical manual authored by AAMA faculty and international master injectors. Designed for both novice and senior aesthetic physicians, it distills complex 3D facial anatomy into actionable, non-surgical injection blueprints, product rheology charts, cannula vs. needle selection guides, and immediate hyaluronidase reversal protocols.",
+    description: "The Aesthetic Injector Handbook is the indispensable clinical manual authored by IAAMA faculty and international master injectors. Designed for both novice and senior aesthetic physicians, it distills complex 3D facial anatomy into actionable, non-surgical injection blueprints, product rheology charts, cannula vs. needle selection guides, and immediate hyaluronidase reversal protocols.",
     learningOutcomes: [
       "Access instant bedside reconstitution charts for Botox, Dysport, Xeomin, and Nabota",
       "Navigate 3D facial danger zones with cross-sectional vascular anatomical overlays",
@@ -126,13 +126,13 @@ export const COURSES_DATA: Course[] = [
     ],
     upcomingDates: [
       { city: "Immediate Access", date: "Digital Edition Available Now", venue: "Online Portal & Hardcover Dispatch", seatsLeft: 50 },
-      { city: "Lahore Campus", date: "Collection at Registration Desk", venue: "AAMA Flagship Campus, Phase 5 DHA", seatsLeft: 25 },
-      { city: "Karachi Campus", date: "Collection at Registration Desk", venue: "AAMA Center of Excellence, Clifton", seatsLeft: 20 }
+      { city: "Lahore Campus", date: "Collection at Registration Desk", venue: "IAAMA Flagship Campus, Phase 5 DHA", seatsLeft: 25 },
+      { city: "Karachi Campus", date: "Collection at Registration Desk", venue: "IAAMA Center of Excellence, Clifton", seatsLeft: 20 }
     ],
     faqs: [
       {
         question: "Is the handbook provided as a digital download or physical book?",
-        answer: "Delegates receive both: an instant interactive digital edition on the AAMA portal and a luxury hardbound clinical desk edition shipped directly to their clinic."
+        answer: "Delegates receive both: an instant interactive digital edition on the IAAMA portal and a luxury hardbound clinical desk edition shipped directly to their clinic."
       },
       {
         question: "Is this handbook relevant for beginners or advanced injectors?",
@@ -218,9 +218,9 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Lahore", date: "April 26 - 27, 2026", venue: "AAMA Flagship Campus, DHA Phase 5", seatsLeft: 3 },
-      { city: "Karachi", date: "May 03 - 04, 2026", venue: "AAMA Center of Excellence, Clifton", seatsLeft: 4 },
-      { city: "Islamabad", date: "May 17 - 18, 2026", venue: "AAMA Executive Suites, Sector F-7/2", seatsLeft: 3 }
+      { city: "Lahore", date: "April 26 - 27, 2026", venue: "IAAMA Flagship Campus, DHA Phase 5", seatsLeft: 3 },
+      { city: "Karachi", date: "May 03 - 04, 2026", venue: "IAAMA Center of Excellence, Clifton", seatsLeft: 4 },
+      { city: "Islamabad", date: "May 17 - 18, 2026", venue: "IAAMA Executive Suites, Sector F-7/2", seatsLeft: 3 }
     ],
     faqs: [
       {
@@ -252,7 +252,7 @@ export const COURSES_DATA: Course[] = [
     prerequisites: "Registered Medical Physicians / PM&DC Doctors with Dermal Filler Experience",
     certification: "UK CPD Accredited Certificate in Facial Sculpting",
     image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=900",
-    concept: "Islamabad executive residency bringing AAMA's elite non-surgical sculpting curriculum to medical professionals in the capital.",
+    concept: "Islamabad executive residency bringing IAAMA's elite non-surgical sculpting curriculum to medical professionals in the capital.",
     description: "Join master trainers in Islamabad for an exclusive, small-cohort residency focused on high-precision non-surgical facial sculpting. Master multi-plane midface restoration, sharp jawline contouring, liquid profiloplasty, and emergency complication management adhering to strict safety protocols.",
     learningOutcomes: [
       "Master facial aesthetic proportions and structural anatomical variations",
@@ -311,8 +311,8 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Islamabad", date: "June 20 - 21, 2026", venue: "AAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 4 },
-      { city: "Islamabad", date: "October 17 - 18, 2026", venue: "AAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 6 }
+      { city: "Islamabad", date: "June 20 - 21, 2026", venue: "IAAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 4 },
+      { city: "Islamabad", date: "October 17 - 18, 2026", venue: "IAAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 6 }
     ],
     faqs: [
       {
@@ -403,8 +403,8 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Peshawar", date: "July 18 - 19, 2026", venue: "AAMA Regional Training Center, University Road, Peshawar", seatsLeft: 5 },
-      { city: "Peshawar", date: "November 14 - 15, 2026", venue: "AAMA Regional Training Center, University Road, Peshawar", seatsLeft: 6 }
+      { city: "Peshawar", date: "July 18 - 19, 2026", venue: "IAAMA Regional Training Center, University Road, Peshawar", seatsLeft: 5 },
+      { city: "Peshawar", date: "November 14 - 15, 2026", venue: "IAAMA Regional Training Center, University Road, Peshawar", seatsLeft: 6 }
     ],
     faqs: [
       {
@@ -582,9 +582,9 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Islamabad Campus", date: "May 28, 2026", venue: "AAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 2 },
-      { city: "Lahore Campus", date: "June 05, 2026", venue: "AAMA Flagship Campus, DHA Phase 5, Lahore", seatsLeft: 3 },
-      { city: "Peshawar Campus", date: "September 12, 2026", venue: "AAMA Regional Training Center, University Road, Peshawar", seatsLeft: 2 }
+      { city: "Islamabad Campus", date: "May 28, 2026", venue: "IAAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 2 },
+      { city: "Lahore Campus", date: "June 05, 2026", venue: "IAAMA Flagship Campus, DHA Phase 5, Lahore", seatsLeft: 3 },
+      { city: "Peshawar Campus", date: "September 12, 2026", venue: "IAAMA Regional Training Center, University Road, Peshawar", seatsLeft: 2 }
     ],
     faqs: [
       {
@@ -617,7 +617,7 @@ export const COURSES_DATA: Course[] = [
     certification: "UK CPD Accredited Certificate of Scientific Congress Attendance",
     image: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&q=80&w=900",
     concept: "World-class scientific conferences featuring live non-surgical injection demonstrations on stage, keynote lectures, and global panel discussions.",
-    description: "AAMA conferences bring together leading international plastic surgeons, dermatologists, and aesthetic physicians for ground-breaking scientific updates. Attendees witness live high-definition non-surgical injection demos on large 4K screens, cadaveric anatomical dissections correlated with ultrasound, and expert panels debating the latest trends in regenerative medicine, exosomes, and biostimulators.",
+    description: "IAAMA conferences bring together leading international plastic surgeons, dermatologists, and aesthetic physicians for ground-breaking scientific updates. Attendees witness live high-definition non-surgical injection demos on large 4K screens, cadaveric anatomical dissections correlated with ultrasound, and expert panels debating the latest trends in regenerative medicine, exosomes, and biostimulators.",
     learningOutcomes: [
       "Witness live stage non-surgical injection demos by globally recognized master trainers",
       "Gain critical updates on the latest non-surgical biostimulators, polynucleotides, and exosome therapies",
@@ -691,7 +691,7 @@ export const COURSES_DATA: Course[] = [
   // 8. MODELS PROGRAM (PATIENT MODEL PORTAL)
   {
     id: "models-program",
-    name: "AAMA Clinical Patient Model Program",
+    name: "IAAMA Clinical Patient Model Program",
     subtitle: "Apply for 100% Non-Surgical Aesthetic Treatments at Subsidized Model Rates",
     category: "models",
     categoryLabel: "Clinical Model Program",
@@ -707,7 +707,7 @@ export const COURSES_DATA: Course[] = [
     certification: "Complimentary Post-Treatment Follow-up & Aftercare Kit",
     image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=900",
     concept: "Receive world-class, 100% non-surgical aesthetic enhancements performed by registered medical doctors under the direct 1:1 supervision of our senior master trainers.",
-    description: "The AAMA Model Program allows pre-screened patient models to receive premium non-surgical cosmetic treatments — including Botox, Dermal Fillers, Russian Lips, Non-Surgical Nose Reshaping, Profhilo Skin Boosters, and Fractional Lasers — at a fraction of standard clinic fees. Every treatment is strictly non-surgical, utilizing genuine FDA/CE-approved products and supervised step-by-step by senior doctors.",
+    description: "The IAAMA Model Program allows pre-screened patient models to receive premium non-surgical cosmetic treatments — including Botox, Dermal Fillers, Russian Lips, Non-Surgical Nose Reshaping, Profhilo Skin Boosters, and Fractional Lasers — at a fraction of standard clinic fees. Every treatment is strictly non-surgical, utilizing genuine FDA/CE-approved products and supervised step-by-step by senior doctors.",
     learningOutcomes: [
       "Access premium non-surgical aesthetic treatments at subsidized product-only rates",
       "All treatments performed by licensed medical doctors (MBBS/BDS) under master trainer supervision",
@@ -763,9 +763,9 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Lahore Campus", date: "Every Friday & Saturday", venue: "AAMA Flagship Campus, DHA Phase 5, Lahore", seatsLeft: 8 },
-      { city: "Karachi Campus", date: "Monthly Training Weekends", venue: "AAMA Center of Excellence, Clifton, Karachi", seatsLeft: 6 },
-      { city: "Islamabad Campus", date: "Monthly Training Weekends", venue: "AAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 6 }
+      { city: "Lahore Campus", date: "Every Friday & Saturday", venue: "IAAMA Flagship Campus, DHA Phase 5, Lahore", seatsLeft: 8 },
+      { city: "Karachi Campus", date: "Monthly Training Weekends", venue: "IAAMA Center of Excellence, Clifton, Karachi", seatsLeft: 6 },
+      { city: "Islamabad Campus", date: "Monthly Training Weekends", venue: "IAAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 6 }
     ],
     faqs: [
       {
@@ -860,14 +860,14 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Lahore", date: "April 18, 2026", venue: "AAMA Flagship Campus, DHA Phase 5", seatsLeft: 4 },
-      { city: "Karachi", date: "April 25, 2026", venue: "AAMA Center of Excellence, Clifton Block 4", seatsLeft: 3 },
-      { city: "Islamabad", date: "May 09, 2026", venue: "AAMA Executive Suites, F-7/2", seatsLeft: 5 }
+      { city: "Lahore", date: "April 18, 2026", venue: "IAAMA Flagship Campus, DHA Phase 5", seatsLeft: 4 },
+      { city: "Karachi", date: "April 25, 2026", venue: "IAAMA Center of Excellence, Clifton Block 4", seatsLeft: 3 },
+      { city: "Islamabad", date: "May 09, 2026", venue: "IAAMA Executive Suites, F-7/2", seatsLeft: 5 }
     ],
     faqs: [
       {
         question: "Are live models provided by the academy?",
-        answer: "Yes, AAMA provides pre-screened clinical models for all registered delegates to practice on under 1-on-1 supervision."
+        answer: "Yes, IAAMA provides pre-screened clinical models for all registered delegates to practice on under 1-on-1 supervision."
       },
       {
         question: "Is this masterclass recognized internationally?",
@@ -956,9 +956,9 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Lahore", date: "April 19 - 20, 2026", venue: "AAMA Flagship Campus, DHA Phase 5", seatsLeft: 2 },
-      { city: "Karachi", date: "April 26 - 27, 2026", venue: "AAMA Center of Excellence, Clifton Block 4", seatsLeft: 4 },
-      { city: "Islamabad", date: "May 10 - 11, 2026", venue: "AAMA Executive Suites, F-7/2", seatsLeft: 3 }
+      { city: "Lahore", date: "April 19 - 20, 2026", venue: "IAAMA Flagship Campus, DHA Phase 5", seatsLeft: 2 },
+      { city: "Karachi", date: "April 26 - 27, 2026", venue: "IAAMA Center of Excellence, Clifton Block 4", seatsLeft: 4 },
+      { city: "Islamabad", date: "May 10 - 11, 2026", venue: "IAAMA Executive Suites, F-7/2", seatsLeft: 3 }
     ],
     faqs: [
       {
@@ -1048,9 +1048,9 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Lahore", date: "April 21, 2026", venue: "AAMA Flagship Campus, DHA Phase 5", seatsLeft: 5 },
-      { city: "Karachi", date: "April 28, 2026", venue: "AAMA Center of Excellence, Clifton Block 4", seatsLeft: 3 },
-      { city: "Islamabad", date: "May 12, 2026", venue: "AAMA Executive Suites, F-7/2", seatsLeft: 6 }
+      { city: "Lahore", date: "April 21, 2026", venue: "IAAMA Flagship Campus, DHA Phase 5", seatsLeft: 5 },
+      { city: "Karachi", date: "April 28, 2026", venue: "IAAMA Center of Excellence, Clifton Block 4", seatsLeft: 3 },
+      { city: "Islamabad", date: "May 12, 2026", venue: "IAAMA Executive Suites, F-7/2", seatsLeft: 6 }
     ],
     faqs: [
       {
@@ -1137,8 +1137,8 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Lahore", date: "April 22, 2026", venue: "AAMA Flagship Campus, DHA Phase 5", seatsLeft: 2 },
-      { city: "Karachi", date: "April 29, 2026", venue: "AAMA Center of Excellence, Clifton Block 4", seatsLeft: 3 }
+      { city: "Lahore", date: "April 22, 2026", venue: "IAAMA Flagship Campus, DHA Phase 5", seatsLeft: 2 },
+      { city: "Karachi", date: "April 29, 2026", venue: "IAAMA Center of Excellence, Clifton Block 4", seatsLeft: 3 }
     ],
     faqs: [
       {
@@ -1226,9 +1226,9 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Islamabad", date: "October 03, 2026", venue: "AAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 4 },
-      { city: "Lahore", date: "October 17, 2026", venue: "AAMA Flagship Campus, DHA Phase 5, Lahore", seatsLeft: 3 },
-      { city: "Karachi", date: "October 24, 2026", venue: "AAMA Center of Excellence, Clifton Block 4, Karachi", seatsLeft: 5 }
+      { city: "Islamabad", date: "October 03, 2026", venue: "IAAMA Executive Suites, Sector F-7/2, Islamabad", seatsLeft: 4 },
+      { city: "Lahore", date: "October 17, 2026", venue: "IAAMA Flagship Campus, DHA Phase 5, Lahore", seatsLeft: 3 },
+      { city: "Karachi", date: "October 24, 2026", venue: "IAAMA Center of Excellence, Clifton Block 4, Karachi", seatsLeft: 5 }
     ],
     faqs: [
       {
@@ -1237,7 +1237,7 @@ export const COURSES_DATA: Course[] = [
       },
       {
         question: "Who are the master trainers for this program?",
-        answer: "This masterclass is conducted under the direct clinical leadership and mentorship of Dr. Shumaila Khan (Consultant Dermatologist & Academic Director of AAMA Academy)."
+        answer: "This masterclass is conducted under the direct clinical leadership and mentorship of Dr. Shumaila Khan (Consultant Dermatologist & Academic Director of IAAMA Academy)."
       },
       {
         question: "How can I book my seat for the Islamabad batch on October 3rd?",
@@ -1322,9 +1322,9 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Lahore", date: "Batch 28: May 15 - 19, 2026", venue: "AAMA Flagship Campus, DHA Phase 5", seatsLeft: 5 },
-      { city: "Karachi", date: "Batch 29: June 12 - 16, 2026", venue: "AAMA Center of Excellence, Clifton", seatsLeft: 4 },
-      { city: "Islamabad", date: "Batch 30: July 10 - 14, 2026", venue: "AAMA Executive Suites, F-7/2", seatsLeft: 6 }
+      { city: "Lahore", date: "Batch 28: May 15 - 19, 2026", venue: "IAAMA Flagship Campus, DHA Phase 5", seatsLeft: 5 },
+      { city: "Karachi", date: "Batch 29: June 12 - 16, 2026", venue: "IAAMA Center of Excellence, Clifton", seatsLeft: 4 },
+      { city: "Islamabad", date: "Batch 30: July 10 - 14, 2026", venue: "IAAMA Executive Suites, F-7/2", seatsLeft: 6 }
     ],
     faqs: [
       {
@@ -1333,7 +1333,7 @@ export const COURSES_DATA: Course[] = [
       },
       {
         question: "Is clinical mentorship provided after course completion?",
-        answer: "Yes, all Fellowship alumni receive lifelong membership to the AAMA Private Physicians Group for case consultations, emergency help, and master trainer advice."
+        answer: "Yes, all Fellowship alumni receive lifelong membership to the IAAMA Private Physicians Group for case consultations, emergency help, and master trainer advice."
       }
     ]
   },
@@ -1414,8 +1414,8 @@ export const COURSES_DATA: Course[] = [
       { name: "Dr. Shumaila Khan", title: "Academic Director & Consultant Dermatologist", image: drShumailaImg }
     ],
     upcomingDates: [
-      { city: "Lahore", date: "May 08, 2026", venue: "AAMA Flagship Campus, DHA Phase 5", seatsLeft: 6 },
-      { city: "Karachi", date: "May 22, 2026", venue: "AAMA Center of Excellence, Clifton", seatsLeft: 4 }
+      { city: "Lahore", date: "May 08, 2026", venue: "IAAMA Flagship Campus, DHA Phase 5", seatsLeft: 6 },
+      { city: "Karachi", date: "May 22, 2026", venue: "IAAMA Center of Excellence, Clifton", seatsLeft: 4 }
     ],
     faqs: [
       {
@@ -1433,7 +1433,7 @@ export const FACULTY_DATA = [
     title: "Founder & Academic Director",
     qualifications: "MBBS, FCPS (Dermatology), Board Certified Master Aesthetic Trainer, Member IACD",
     experience: "15+ Years Clinical Leadership",
-    bio: "Dr. Shumaila Khan is the Founder and Academic Director of AAMA Academy. A distinguished consultant dermatologist and master aesthetic physician recognized across Pakistan for advanced clinical dermatology, laser technologies, and non-surgical aesthetic transformations, Dr. Shumaila personally oversees every curriculum, ensuring all PM&DC registered doctors receive rigorous 1:1 live patient hands-on mentorship, evidence-based facial mapping, and zero-compromise complication prevention protocols.",
+    bio: "Dr. Shumaila Khan is the Founder and Academic Director of IAAMA Academy. A distinguished consultant dermatologist and master aesthetic physician recognized across Pakistan for advanced clinical dermatology, laser technologies, and non-surgical aesthetic transformations, Dr. Shumaila personally oversees every curriculum, ensuring all PM&DC registered doctors receive rigorous 1:1 live patient hands-on mentorship, evidence-based facial mapping, and zero-compromise complication prevention protocols.",
     specialties: [
       "Advanced Facial Contouring & Vector Architecture",
       "Neuromodulator & Dermal Filler Artistry",
@@ -1451,7 +1451,7 @@ export const FACULTY_DATA = [
     title: "Co-Founder & Senior Consultant Dermatologist",
     qualifications: "MBBS, FCPS (Dermatology), Professor, Supervisor & Examiner",
     experience: "30+ Years Dermatology & Laser Leadership",
-    bio: "Prof. Brig(R) Asher Ahmed Mashhood is the Co-Founder of AAMA Academy and a luminary in Pakistan's dermatology landscape. With over 30 years in dermatology as a Professor, supervisor, and examiner, his impact on medical aesthetics and laser surgery is immense. Renowned for infusing cutting-edge technology and ethical clinical governance, he co-founded AAMA Academy to lead gold-standard 1:1 aesthetic training across Pakistan.",
+    bio: "Prof. Brig(R) Asher Ahmed Mashhood is the Co-Founder of IAAMA Academy and a luminary in Pakistan's dermatology landscape. With over 30 years in dermatology as a Professor, supervisor, and examiner, his impact on medical aesthetics and laser surgery is immense. Renowned for infusing cutting-edge technology and ethical clinical governance, he co-founded IAAMA Academy to lead gold-standard 1:1 aesthetic training across Pakistan.",
     specialties: [
       "Advanced Clinical Dermatology & Dermatopathology",
       "Professor, Supervisor & Post-Graduate Examiner",
@@ -1491,7 +1491,7 @@ export const SCHEDULE_DATA = [
     city: "Lahore",
     date: "April 18, 2026",
     timing: "09:00 AM - 06:00 PM",
-    venue: "AAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
+    venue: "IAAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
     seatsTotal: 12,
     seatsRemaining: 4,
     status: "Filling Fast",
@@ -1504,7 +1504,7 @@ export const SCHEDULE_DATA = [
     city: "Lahore",
     date: "April 19 - 20, 2026",
     timing: "09:00 AM - 06:00 PM (2 Days)",
-    venue: "AAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
+    venue: "IAAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
     seatsTotal: 10,
     seatsRemaining: 2,
     status: "Almost Full",
@@ -1517,7 +1517,7 @@ export const SCHEDULE_DATA = [
     city: "Lahore",
     date: "April 21, 2026",
     timing: "09:30 AM - 05:30 PM",
-    venue: "AAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
+    venue: "IAAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
     seatsTotal: 12,
     seatsRemaining: 5,
     status: "Open",
@@ -1530,7 +1530,7 @@ export const SCHEDULE_DATA = [
     city: "Lahore",
     date: "April 26 - 27, 2026",
     timing: "09:00 AM - 06:00 PM (2 Days)",
-    venue: "AAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
+    venue: "IAAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
     seatsTotal: 8,
     seatsRemaining: 3,
     status: "Almost Full",
@@ -1543,7 +1543,7 @@ export const SCHEDULE_DATA = [
     city: "Lahore",
     date: "April 22, 2026",
     timing: "10:00 AM - 05:00 PM",
-    venue: "AAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
+    venue: "IAAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
     seatsTotal: 8,
     seatsRemaining: 2,
     status: "Almost Full",
@@ -1556,7 +1556,7 @@ export const SCHEDULE_DATA = [
     city: "Karachi",
     date: "April 25, 2026",
     timing: "09:00 AM - 06:00 PM",
-    venue: "AAMA Center of Excellence, Block 4, Clifton, Karachi",
+    venue: "IAAMA Center of Excellence, Block 4, Clifton, Karachi",
     seatsTotal: 12,
     seatsRemaining: 3,
     status: "Filling Fast",
@@ -1569,7 +1569,7 @@ export const SCHEDULE_DATA = [
     city: "Karachi",
     date: "April 26 - 27, 2026",
     timing: "09:00 AM - 06:00 PM (2 Days)",
-    venue: "AAMA Center of Excellence, Block 4, Clifton, Karachi",
+    venue: "IAAMA Center of Excellence, Block 4, Clifton, Karachi",
     seatsTotal: 10,
     seatsRemaining: 4,
     status: "Open",
@@ -1582,7 +1582,7 @@ export const SCHEDULE_DATA = [
     city: "Lahore",
     date: "May 15 - 19, 2026 (Batch 28)",
     timing: "09:00 AM - 06:00 PM (5 Days Residency)",
-    venue: "AAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
+    venue: "IAAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
     seatsTotal: 14,
     seatsRemaining: 5,
     status: "Open for Applications",
@@ -1595,7 +1595,7 @@ export const SCHEDULE_DATA = [
     city: "Islamabad",
     date: "June 20 - 21, 2026",
     timing: "09:00 AM - 05:30 PM",
-    venue: "AAMA Executive Suites, Sector F-7/2, Islamabad",
+    venue: "IAAMA Executive Suites, Sector F-7/2, Islamabad",
     seatsTotal: 8,
     seatsRemaining: 3,
     status: "Open",
@@ -1608,7 +1608,7 @@ export const SCHEDULE_DATA = [
     city: "Lahore",
     date: "July 18, 2026",
     timing: "09:00 AM - 05:30 PM",
-    venue: "AAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
+    venue: "IAAMA Flagship Campus, Sector H, Phase 5 DHA, Lahore",
     seatsTotal: 10,
     seatsRemaining: 4,
     status: "Open",
@@ -1621,7 +1621,7 @@ export const SCHEDULE_DATA = [
     city: "Islamabad",
     date: "May 09, 2026",
     timing: "09:00 AM - 06:00 PM",
-    venue: "AAMA Executive Suites, Sector F-7/2, Islamabad",
+    venue: "IAAMA Executive Suites, Sector F-7/2, Islamabad",
     seatsTotal: 12,
     seatsRemaining: 5,
     status: "Open",

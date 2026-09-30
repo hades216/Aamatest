@@ -33,7 +33,7 @@ export function Footer() {
               <AAMALogo size={68} />
               <div>
                 <h4 className="text-lg font-bold tracking-[0.15em] uppercase font-editorial-heading text-white">
-                  AAMA <span className="text-[#E1A140]">Academy</span>
+                  IAAMA <span className="text-[#E1A140]">Academy</span>
                 </h4>
                 <p className="text-xs tracking-wider text-neutral-400 uppercase font-mono">
                   Academy of Advanced Medical Aesthetics
@@ -117,7 +117,7 @@ export function Footer() {
               <li>
                 <Link to="/about" className="hover:text-[#E1A140] transition-colors flex items-center gap-1.5">
                   <ChevronRight size={13} className="text-[#E1A140]" />
-                  <span>About AAMA</span>
+                  <span>About IAAMA</span>
                 </Link>
               </li>
               <li>
@@ -228,14 +228,14 @@ export function Footer() {
               </form>
             )}
             <p className="text-xs text-neutral-400 mt-1.5 font-sans">
-              Strict privacy: AAMA does not share doctor credentials with third-party networks.
+              Strict privacy: IAAMA does not share doctor credentials with third-party networks.
             </p>
           </div>
 
           <div className="lg:col-span-6 flex flex-col sm:flex-row sm:justify-end items-center gap-6 font-sans">
             <div className="text-center sm:text-right space-y-1">
               <p className="m-0 text-xs uppercase font-mono tracking-wider text-neutral-400 font-medium">
-                © {new Date().getFullYear()} AAMA Pakistan. All rights reserved.
+                © {new Date().getFullYear()} IAAMA Pakistan. All rights reserved.
               </p>
               <p className="m-0 text-xs text-neutral-400 font-normal">
                 Accredited by Continuous Professional Development Assembly (UK). PM&amp;DC aligned guidelines.
